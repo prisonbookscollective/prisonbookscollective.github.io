@@ -1,0 +1,103 @@
+/* === Global === */
+
+.covid-banner {
+	background-color: $red-03;
+	border-bottom: 1px solid darken($red-03, 10%);
+	padding: 0.5rem 2rem 0 2rem;
+	text-align: center;
+
+	p {
+
+		@include sans-small;
+
+		color: $red-01;
+		margin-bottom: 0.5rem;
+
+		a:link,
+		a:visited {
+			color: $red-01;
+			text-decoration: underline;
+		}
+
+		a:hover,
+		a:active {
+			color: darken($red-01, 10%);
+			text-decoration: underline;
+		}
+
+		span {
+			font-weight: 500;
+
+			&:before {
+				background-color: $red-01;
+				border-radius: 6px;
+				content: "";
+				display: inline-block;
+				height: 6px;
+				margin: 6px 6px 0 0;
+				vertical-align: top;
+				width: 6px;
+			}
+		}
+	}
+} // .covid-banner
+
+.page-header {
+	margin: 6rem auto 0 auto;
+
+	.intro { 
+		@include serif-extra-large;
+		max-width: $break-small;
+	}
+	
+}
+
+
+
+
+/* === Home === */
+
+
+.home {
+
+	header {
+		background-color: $gold-04;
+		margin-bottom: 4rem;
+	}
+
+	.home-intro { 
+		display: flex;
+		justify-content: space-between;
+
+		@media all and (max-width: $break-small) { display: block; }
+
+		.home-intro-description {
+			margin-top: 4rem;
+			vertical-align: top;
+			width: 50%;
+
+			@media all and (max-width: $break-small) { width: 100%; }
+
+			.intro { @include serif-extra-large; }
+
+			.intro-secondary { @include serif-large; }
+		} // .home-intro-description
+
+		figure {
+			margin-top: 2rem;
+			width: 36%;
+
+			@media all and (max-width: $break-medium) {
+				margin-top: 4rem;
+				width: 50%;
+			}
+
+			@media all and (max-width: $break-small) { 
+				margin: 2rem auto -1rem auto;
+				width: 64%;
+			}
+		}
+
+	} // .home-intro
+
+} // .home

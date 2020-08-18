@@ -1,38 +1,53 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
+<footer>
+	<div class="footer-quote">
+		<p>"I knew right there in prison that reading had changed forever the course of my life. As I see it today, the ability to read awoke inside me some long dormant craving to be mentally alive." <span>— Malcolm X</span></p>
+	</div>
+	<div class="nav-wrapper">
+		<div class="footer-content">
+			<a href="/" class="pbc-logo"><img src="/img/logo.svg" alt="PBC logo"></a>
+			<div class="link-list">
+				<div class="address">
+					<p class="label">Contact Us</p>
+					<p><b>Prison Books Collective</b></p>
+					<p>Publishing & Distribution</p>
+					<p>PO Box 625</p>
+					<p>Carrboro, NC 27510</p>
+				</div>
+				
+				<ul class="link-list">
+					<li class="email"><a href="mailto:prisonbooks@gmail.com">prisonbooks@gmail.com</a></li>
+					<li class="phone"><a href="tel:919-443-9238">(919) 443-9238</a></li>
+				</ul>
+				<ul class="social-links">
+					<li><a href="https://www.facebook.com/{{ site.facebook_username }}/"><img src="/img/icon-facebook.jpg" alt=""></a></li>
+					<li><a href="https://www.twitter.com/{{ site.twitter_username }}"><img src="/img/icon-twitter.jpg" alt=""></a></li>
+					<li><a href="https://www.instagram.com/{{ site.instagram_username }}"><img src="/img/icon-instagram.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="link-list">
+				<p class="label">Support Us</p>
+				<ul>
+					<li><a href="#">Donate</a></li>
+					<li><a href="#">Volunteer</a></li>
+					<li><a href="#">Advocate Prison Reform</a></li>
+				</ul>
+			</div>
+			<div class="link-list">
+				<p class="label">Our Work</p>
+				<ul>
+					<li><a href="#">Workdays</a></li>
+					<li><a href="#">Philosophy</a></li>
+					<li><a href="#">Nonprofit Registration</a></li>
+				</ul>
+			</div>
+			<div class="link-list">
+				<p class="label">Resources</p>
+				<ul>
+					<li><a href="#">PBC Resources</a></li>
+					<li><a href="#">Inmate Support in NC</a></li>
+					<li><a href="#">Books-to-Prisons Programs</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </footer>

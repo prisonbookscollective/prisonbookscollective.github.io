@@ -1,17 +1,41 @@
 <!DOCTYPE html>
+
 <html>
 
   {% include head.html %}
 
-  <body>
+  <body class="{{ page.title | downcase }}">
 
-    {% include header.html %}
+    {% include covid-banner.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <header>
+      {% include nav.html %}
+      {% if page.title == "Home" %}
+        <div class="content-wrapper">
+          <div class="home-intro ">
+            <div class="home-intro-description">
+              <p class="intro">We send free books and zines to thousands of incarcerated people in North Carolina and Alabama every year.</p>
+              <p class="intro-secondary">Our mission is to reduce the isolation of imprisonment and provide resources for people in prison.</p>
+              <a href="/about" class="btn-tertiary">Learn more about our work</a>
+            </div>
+            <figure>
+              <img src="/img/illustration-letter.png">
+            </figure>
+          </div>
+        </div>
+      {% else %}
+        <div class="page-header content-wrapper">
+          <h1> {{page.title_full}} </h1>
+          <p class="intro">{{page.intro}}</p>
+        </div>
+      {% endif %}
+    </header>
+  
+    <section class="page-content">
+      <div class="content-wrapper">
         {{ content }}
-      </div>
-    </div>
+      </div>   
+    </section>
 
     {% include footer.html %}
 

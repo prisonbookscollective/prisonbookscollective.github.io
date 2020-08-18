@@ -1,0 +1,20 @@
+<div class="primary-nav">
+  <div class="nav-wrapper">
+    <a class="home-link" href="{{ site.baseurl }}/">
+      <img src="/img/logo-unlocked.svg">
+      <p>Prison Books Collective <span>Durham, North Carolina</span></p>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#" class="menu-icon"></a>
+
+      <div class="link-list">
+        <a class="page-link {% if page.title == 'About' %}selected{% endif %}" href="/about">About</a>
+        <a class="page-link {% if page.title == 'Support Us' %}selected{% endif %}" href="/support-us">Support Us</a>
+        <a class="page-link {% if page.title == 'Resources' %}selected{% endif %}" href="/resources">Resources</a>
+        <a class="page-link {% if page.title == 'Frequently Asked Questions' %}selected{% endif %}" href="/faq">FAQ</a>
+        <a class="btn-primary" href="/donate">Donate</a>
+      </div>
+    </nav>
+  </div>
+</div>

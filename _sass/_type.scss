@@ -1,0 +1,204 @@
+/* === Sans-serif === */
+
+@font-face {
+  src: url(/fonts/Graphik-Regular.ttf);
+  font-family: 'Liberation Sans';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/fonts/Graphik-RegularItalic.ttf);
+  font-family: 'Liberation Sans';
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/fonts/Graphik-Medium.ttf);
+  font-family: 'Liberation Sans';
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(/fonts/Graphik-MediumItalic.ttf);
+  font-family: 'Liberation Sans';
+  font-style: italic;
+  font-weight: 500;
+}
+
+$sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
+.sans { font-family: $sans; }
+
+/* === Serif === */
+
+@font-face {
+  src: url(/fonts/GentiumBookBasic-Regular.ttf);
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/fonts/GentiumBookBasic-RegularItalic.ttf);
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/fonts/GentiumBookBasic-Bold.ttf);
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(/fonts/GentiumBookBasic-BoldItalic.ttf);
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: bold;
+}
+
+$serif: 'Gentium Book Basic', Georgia, serif;
+.serif { font-family: $serif; }
+
+
+/* Font mixins */
+
+/* === Sans-serif === */
+
+@mixin sans-extra-large {
+  font-family: $sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.009em;
+  line-height: 120%;
+}
+
+@mixin sans-large {
+  font-family: $sans;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin sans-large-bold {
+  font-family: $sans;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin sans-medium {
+  font-family: $sans;
+  font-size: 0.94rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin sans-medium-bold {
+  font-family: $sans;
+  font-size: 0.94rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin sans-small {
+  font-family: $sans;
+  font-size: 0.86rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+/* === Serif === */
+
+@mixin serif-jumbo {
+  font-family: $serif;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+@mixin serif-extra-large {
+  font-family: $serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+
+@mixin serif-extra-large-bold {
+  font-family: $serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+
+@mixin serif-large {
+  font-family: $serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+
+@mixin serif-large-bold {
+  font-family: $serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 2rem
+}
+
+/* === Labels === */
+
+@mixin label-large {
+  font-family: $sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  line-height: 120%;
+}
+
+@mixin label-medium {
+  font-family: $sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  line-height: 120%;
+}
+
+@mixin label-small {
+  font-family: $sans;
+  font-size: 0.88rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  line-height: 120%;
+}
+
+.label-small { @include label-small; }
+.label-medium { @include label-medium; }
+
+.italicized { font-style: italic; }
