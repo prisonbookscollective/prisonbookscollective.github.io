@@ -1,7 +1,7 @@
 html {
-  font-size: 17px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -13,7 +13,13 @@ body {
 
 img { width: 100%; }
 
-figcaption {  }
+figcaption { 
+  @include sans-extra-small;
+
+  color: $black-03;
+  margin-top: 0.5rem;
+
+}
 
 header {
   padding-bottom: 4rem;
@@ -28,7 +34,10 @@ ul {}
 
 ol {}
 
-p { margin-bottom: 1rem; }
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
 
 b { font-weight: 500; }
 
@@ -37,16 +46,24 @@ h1 {
   margin-bottom: 2rem;
 }
 
+h2 {
+  @include sans-large-bold;
+  margin-bottom: 1rem;
+}
+
 
 a {
+  color: $black-01;
   text-decoration: underline;
 
   transition: all 100ms;
 
   &:visited {
+    color: $black-01;
   }
 
   &:hover {
+    color: $black-03;
     text-decoration: underline;
   }
 
@@ -54,17 +71,19 @@ a {
     @include sans-medium-bold;
     background: $purple-01;
     color: $white-01;
-    padding: 0.75rem 1.25rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 
-    &:hover { background: $purple-02; }
+    &:hover { background: #7a83d6; }
   } // .btn-primary
 
   &.btn-secondary {
     @include sans-medium-bold;
     background: $purple-04;
     color: $purple-01;
-    padding: 0.75rem 1.25rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 
     &:hover { background: $purple-03; }
@@ -74,6 +93,7 @@ a {
     @include sans-medium-bold;
     border-bottom: 2px solid $purple-03;
     color: $purple-02;
+    display: inline-block;
     padding-bottom: 2px;
     text-decoration: none;
 
@@ -82,7 +102,31 @@ a {
       border-bottom: 2px solid $purple-02;
     }
   } // .btn-secondary
-}
+
+  &.download:after {
+    background-image: url("/img/icon-download.svg");
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-left: 0.3rem;
+    margin-top: -4px;
+    vertical-align: middle;
+    width: 12px;
+  }
+
+  &.arrow:after {
+    background-image: url("/img/icon-arrow.svg");
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-left: 0.3rem;
+    margin-top: -4px;
+    vertical-align: middle;
+    width: 14px;
+  }
+
+  &.link-set { margin-left: 2rem; }
+} // a
 
 
 blockquote {  }
@@ -99,7 +143,7 @@ blockquote {  }
 
 .content-wrapper {
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1000px;
   padding: 0 2rem;
 }
 

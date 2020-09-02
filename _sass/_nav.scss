@@ -116,6 +116,7 @@ footer {
 .footer-quote {
   background-color: $gold-03;
   color: $black-02;
+  font-size: 1.1rem;
   padding: 1.5rem;
   text-align: center;
 
@@ -127,7 +128,20 @@ footer {
     span {
       @include sans-small;
       display: block;
-      margin-top: 0.5rem;
+      font-weight: 500;
+      margin-top: 0.75rem;
+
+      &:before {
+        background-image: url("/img/malcolm-x.jpg");
+        background-size: 100%;
+        border-radius: 40px;
+        content: "";
+        display: inline-block;
+        height: 48px;
+        margin-right: 0.75rem;
+        vertical-align: middle;
+        width: 48px;
+      }
     }
   }
 } // .footer-quote
@@ -169,6 +183,7 @@ footer {
   }
 
   .label {
+    @include sans-small;
     color: $black-03;
     margin-bottom: 1rem;
 
@@ -177,6 +192,8 @@ footer {
 
   .address {
     margin-bottom: 1.5rem;
+
+    p { @include sans-small; }
 
     p:not(.label) { margin-bottom: 0.3rem; }
   }
@@ -211,6 +228,12 @@ footer {
     @media all and (max-width: 500px) {
       margin-bottom: 1rem;
       width: 100%;
+    }
+
+    &:nth-child(2) {
+      @media all and (max-width: $break-medium) {
+        margin-top: 3rem;
+      }
     }
 
     ul { padding: 0; }

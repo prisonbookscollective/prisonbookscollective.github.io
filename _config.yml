@@ -7,6 +7,8 @@ url: "http://prisonbooks.info" # the base hostname & protocol for your site
 twitter_username: BooksPrison
 instagram_username: prisonbookscollective
 facebook_username: prisonbookscollective
+contact_email: prisonbooks@gmail.com
+mailing_address: PO Box 625, Carrboro, NC 27510
 
 # Build settings
 markdown: kramdown
