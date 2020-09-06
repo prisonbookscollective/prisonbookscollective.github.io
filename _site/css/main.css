@@ -70,22 +70,22 @@ div {
 
 /* === Sans-serif === */
 @font-face {
-  src: url(/fonts/Graphik-Regular.ttf);
+  src: url(/fonts/Graphik-Regular.otf);
   font-family: 'Graphik';
   font-style: normal;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/Graphik-RegularItalic.ttf);
+  src: url(/fonts/Graphik-RegularItalic.otf);
   font-family: 'Graphik';
   font-style: italic;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/Graphik-Medium.ttf);
+  src: url(/fonts/Graphik-Medium.otf);
   font-family: 'Graphik';
   font-style: normal;
   font-weight: 500; }
 @font-face {
-  src: url(/fonts/Graphik-MediumItalic.ttf);
+  src: url(/fonts/Graphik-MediumItalic.otf);
   font-family: 'Graphik';
   font-style: italic;
   font-weight: 500; }
@@ -140,7 +140,7 @@ div {
   font-style: italic; }
 
 html {
-  font-size: 16px; }
+  font-size: 17px; }
 
 body {
   color: #424242;
@@ -361,7 +361,7 @@ a {
 /* === Footer === */
 footer {
   background: #FBF9F6;
-  margin-top: 4rem; }
+  margin-top: 8rem; }
 
 .footer-quote {
   background-color: #F5F1EA;
@@ -572,7 +572,7 @@ footer {
         width: 100%; } }
   .copy-right.instantiated,
   .copy-left.instantiated {
-    margin: 0 0 6rem 0; }
+    margin: 0 0 4rem 0; }
     .copy-right.instantiated .content,
     .copy-left.instantiated .content {
       width: 50%; }
