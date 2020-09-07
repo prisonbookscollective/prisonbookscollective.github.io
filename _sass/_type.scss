@@ -5,6 +5,7 @@
   font-family: 'Graphik';
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   font-family: 'Graphik';
   font-style: italic;
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -19,6 +21,7 @@
   font-family: 'Graphik';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,6 +29,7 @@
   font-family: 'Graphik';
   font-style: italic;
   font-weight: 500;
+  font-display: swap;
 }
 
 $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
@@ -38,6 +42,7 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -45,6 +50,7 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -52,6 +58,7 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
@@ -59,6 +66,7 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: bold;
+  font-display: swap;
 }
 
 $serif: 'Gentium Book Basic', Georgia, serif;
