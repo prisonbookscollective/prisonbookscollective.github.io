@@ -1,6 +1,11 @@
 /* === Primary Nav === */
 
-.primary-nav { position: relative; }
+.primary-nav {
+  position: relative;
+
+  @media all and (max-width: $break-small) {}
+
+}
 
 .home-link {
   display: inline-block;
@@ -24,6 +29,11 @@
     margin-top: 6px;
     vertical-align: top;
     width: 64px;
+
+    @media all and (max-width: $break-small) {
+      margin-top: 10px;
+      width: 44px;
+    }
   }
 
   p { 
@@ -32,10 +42,20 @@
     font-weight: bold;
     margin: 12px 0 0 8px;
 
+    @media all and (max-width: $break-small) {
+      font-size: 1.2rem;
+      margin: 10px 0 0 6px;
+    }
+
     span { 
       @include sans-medium;
       display: block;
       margin-top: -6px;
+
+      @media all and (max-width: $break-small) {
+        @include sans-small;
+        margin-top: -2px;
+      }
     }
 
   }
@@ -71,12 +91,12 @@
   @media all and (max-width: $break-medium) {
     background-color: $white-01;
     border: 1px solid $gray-02;
-    margin: 1.5rem;
+    margin: 20px 8px 0 0;
 
     .nav-links {  }
 
     .menu-icon {
-      background: url("/img/icon-nav.svg") no-repeat center center;
+      background: url("/img/icon-nav.svg") no-repeat center center $gold-04;
       content: "";
       display: block;
       float: right;
@@ -89,19 +109,23 @@
       clear: both;
       display: none;
       position: absolute;
-      right: 1rem;
-      top: 1rem;
+      right: 0;
+      top: -2rem;
     }
 
     &:hover .link-list {
+      @include shadow-default;
+      background: $gold-04;
+      border-radius: 2px;
       display: block;
-      padding-bottom: 5px;
+      padding: 1rem 1.5rem 2rem 1.5rem;
+      width: 180px;
     }
 
     .page-link {
       display: block;
       margin: 1rem 0.5rem;
-      text-align: right;
+      width: fit-content;
     }
   } // media query
 } // .nav-links

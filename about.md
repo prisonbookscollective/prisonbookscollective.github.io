@@ -37,17 +37,17 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 
 <div class="copy-left instantiated">
 	<div class="content">
-		<h2 id="philosophy">What We Stand For</h2>
-		<p>We are a group of people who believe the prison system in the United States is fundamentally unjust and perpetuates systems of economic, racial, gender, psychological, and social oppression. Our members share different motivations for the work we do — some of us are abolitionists, some of us seek prison reform, and some of us are merely concerned community members — but we are united in the belief that incarcerated people deserve support and resources and that the many injustices of prison must be resisted.</p>
-		<p>We work to enact systems of care for those who have been subjected to “organized abandonment,” as abolitionist scholar Ruth Wilson Gilmore terms it, and the violence of the criminal justice system in America today.</p>
+		<h2>Contact Us</h2>
+		<p>The best way to get in touch with us is by sending an email to {{ site.contact_email }}. To send us mail, donations, or supplies, please address packages to {{ site.mailing_address }}. Our <a href="/support-us">support page</a> has more information about how you can help.</p>
+		<p>If you are interested in volunteering, please send us an email and we will follow up to schedule a time and provide directions to the work space.</p>
 	</div>
 </div>
 
 <div class="copy-left instantiated">
 	<div class="content">
-		<h2>Contact Information</h2>
-		<p>The best way to get in touch with us is by sending an email to {{ site.contact_email }}. To send us mail, donations, or supplies, please address packages to {{ site.mailing_address }}. Our <a href="/support-us">support page</a> has more information about how you can help.</p>
-		<p>If you are interested in volunteering, please send us an email and we will follow up to schedule a time and provide directions to the work space.</p>
+		<h2 id="philosophy">What We Stand For</h2>
+		<p>We are a group of people who believe the prison system in the United States is fundamentally unjust and perpetuates systems of economic, racial, gender, psychological, and social oppression. Our members share different motivations for the work we do — some of us are abolitionists, some of us seek prison reform, and some of us are merely concerned community members — but we are united in the belief that incarcerated people deserve support and resources and that the many injustices of prison must be resisted.</p>
+		<p>We work to enact systems of care for those who have been subjected to “organized abandonment,” as abolitionist scholar Ruth Wilson Gilmore terms it, and the violence of the criminal justice system in America today.</p>
 	</div>
 </div>
 

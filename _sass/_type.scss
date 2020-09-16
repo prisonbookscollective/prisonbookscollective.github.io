@@ -186,6 +186,15 @@ $serif: 'Gentium Book Basic', Georgia, serif;
   margin-bottom: 2rem
 }
 
+@mixin serif-medium-bold {
+  font-family: $serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 2rem
+}
+
 /* === Labels === */
 
 @mixin label-large {

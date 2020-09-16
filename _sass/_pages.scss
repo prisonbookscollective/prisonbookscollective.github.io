@@ -3,7 +3,7 @@
 .covid-banner {
 	background-color: $red-03;
 	border-bottom: 1px solid darken($red-03, 10%);
-	padding: 0.5rem 2rem 0 2rem;
+	padding: 0.5rem 0.5rem 0 0.5rem;
 	text-align: center;
 
 	p {
@@ -38,7 +38,7 @@
 				vertical-align: top;
 				width: 6px;
 			}
-		}
+		} // span
 	}
 } // .covid-banner
 
@@ -49,8 +49,18 @@
 		@include serif-extra-large;
 		max-width: $break-small;
 	}
-	
-}
+} // .page-header
+
+.copy-left {
+	@media all and (max-width: $break-medium) { flex-wrap: wrap-reverse; }
+	.content {
+		margin: 2rem 2rem 0 0;
+	}
+} //.copy-left
+
+.copy-right {
+	.content { margin: 2rem 0 0 2rem; }
+} // .copy-right
 
 .copy-right,
 .copy-left {
@@ -58,14 +68,21 @@
 	justify-content: space-between;
 	margin: 8rem 0;
 
-	@media all and (max-width: $break-medium) { flex-wrap: wrap; }
+	@media all and (max-width: $break-medium) {
+		flex-wrap: wrap;
+		margin: 4rem 0;
+	}
 
 	.content { 
-		margin: 2rem 0 0 2rem;
 		width: 40%;
 
 		@media all and (max-width: $break-medium) {
 			margin: 4rem 2rem 2rem 2rem;
+			width: auto;
+		}
+
+		@media all and (max-width: $break-small) {
+			margin: 2rem 0;
 			width: auto;
 		}
 
@@ -95,24 +112,14 @@
 
 			@media all and (max-width: $break-medium) { width: 100%; }
 		}
-	}
-
+	} // .instantiated
 } // .copy-right, .copy-left
-
-.copy-left {
-
-	@media all and (max-width: $break-medium) { flex-wrap: wrap-reverse; }
-
-	.content {
-		margin: 2rem 2rem 0 0;
-	}
-} //.copy-left
 
 .copy-center {
 	margin: 10rem 0 12rem 0;
 	text-align: center;
 
-	@media all and (max-width: $break-medium) { margin: 6rem 0 10rem 0; }
+	@media all and (max-width: $break-medium) { margin: 4rem 0 6rem 0; }
 
 	p {
 		margin: 1rem auto;
@@ -130,27 +137,22 @@
 		@media all and (max-width: $break-small) { display: block; }
 
 		.support-link {
+			@include shadow-default;
 			background-color: $gold-04;
-			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 			border-radius: 2px;
 			padding: 2rem;
 			text-decoration: none;
-			transition: ease-in-out 200ms;
 			width: 30%;
 
-			&:hover {
-				box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
-				transform: translateY(-8px);
-				transition: ease-in-out 200ms;
-			}
+			&:hover { @include shadow-hover; }
 
 			@media all and (max-width: $break-medium) { padding: 2rem 0.5rem; }
 
 			@media all and (max-width: $break-small) {
 				display: block;
-				margin: 2rem 0 0 0;
-				padding: 2rem 1rem;
-				width: 100%;
+				margin: 2rem auto 0 auto;
+				padding: 2rem 1rem 0.5rem 1rem;
+				width: 80%;
 			}
 
 			img {
@@ -160,10 +162,11 @@
 			}
 
 			p {
-
 				@include sans-medium;
 				color: $black-02;
 				margin: 2rem 0 0 0;
+
+				@media all and (max-width: $break-small) { margin: 1rem 0;}
 
 				&.pseudo-link {
 					@include label-small;
@@ -233,3 +236,229 @@
 	} // .home-intro
 
 } // .home
+
+
+/* === Support Us === */
+
+.support-method {
+	border-bottom: 1px solid $gray-02;
+	display: flex;
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
+
+	@media all and (max-width: $break-medium) { display: block; }
+
+	.number {
+		width: 16%;
+		p { @include serif-extra-large-bold; }
+
+		@media all and (max-width: $break-medium) {
+			display: inline-block;
+			margin-right: 1rem;
+			vertical-align: top;
+			width: 6%;
+		}
+	}
+
+	.content {
+		margin-bottom: 1rem;
+		max-width: 480px;
+
+		@media all and (max-width: $break-medium) {
+			display: inline-block;
+			vertical-align: top;
+			width: 86%;
+		}
+
+		h2 { @include serif-extra-large-bold; }
+		p { margin-bottom: 2rem; }
+	}
+
+	.support-card { 
+		@include shadow-default;
+		background-color: $gold-04;
+		border-radius: 2px;
+		display: block;
+		height: fit-content;
+		margin-left: auto;
+		margin-top: 4rem;
+		padding: 2rem 2rem 1rem 2rem;
+		text-align: center;
+		text-decoration: none;
+		width: 24%;
+
+		@media all and (max-width: $break-medium) {
+			margin: 0 auto;
+			max-width: 240px;
+			width: auto;
+		}
+
+		&:hover {
+			@include shadow-hover;
+		}
+
+		img {
+			margin: 0 auto;
+			max-height: 64px;
+			width: auto;
+		}
+
+		.pseudo-link {
+			@include label-small;
+			color: $purple-02;
+			margin-top: 1rem;
+
+			&:after {
+				background-image: url("/img/icon-new-window.svg");
+				content:"";
+				display: inline-block;
+				height: 10px;
+				margin-left: 0.3rem;
+				width: 10px;
+			}
+		} // .pseudo-link
+	} // .support-card
+
+	.genre-links {
+		.label {
+			@include label-small;
+			margin-bottom: 1rem;
+		}
+
+		ul {
+			columns: 2;
+			margin: 0 0 2rem 0;
+			padding: 0 0 0 1rem;
+		}
+
+		li {
+			@include sans-small;
+			margin: 0 1rem 1rem 0;
+			vertical-align: top;
+		}
+	}
+
+} // .support-method
+
+
+/* === Resources === */
+
+.resource-array {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 2rem;
+
+	a {
+		color: $black-02;
+		display: block;
+		height: fit-content;
+		margin-right: 2rem;
+		text-decoration: none;
+
+		img {
+			@include shadow-default;
+			max-height: 260px;
+			width: auto;
+
+			&:hover { @include shadow-hover; }
+		}
+
+		p {
+			@include sans-small;
+			margin-top: 1rem;
+			text-align: center;
+		}
+	}
+}
+
+/* === FAQs === */
+
+.faqs {
+	margin-top: -3rem;
+
+	dt {
+		@include serif-medium-bold;
+		margin: 3rem 0 0.5rem 0;
+	}
+}
+
+/* === Donate === */
+
+.donate-content {
+	display: flex;
+	justify-content: space-between;
+
+	@media all and (max-width: $break-medium) {
+		flex-wrap: wrap-reverse;
+	}
+
+	.copy {
+		max-width: $content-container-width;
+		padding-right: 4rem;
+
+		.address {
+			margin: 1rem 0 2rem 2rem;
+
+			p {
+				@include sans-medium;
+				margin: 0.2rem;
+			}
+
+			p:first-child { font-weight: 700; }
+		}
+	}
+
+	.donate-options {
+		@include shadow-default;
+		background: url('/img/logo-paypal.png'), $gold-04;
+		background-position: 24px 32px;
+		background-repeat: no-repeat;
+		background-size: 48px;
+		border-radius: 2px;
+		padding: 2rem 2rem 2rem 7rem;
+		margin-bottom: 8rem;
+		max-width: 380px;
+
+		@media all and (max-width: $break-medium) {
+			background-position: 50% 32px;
+			margin: 0 auto 6rem auto;
+			padding: 7rem 2rem 2rem 2rem;
+			text-align: center;
+		}
+
+		p {
+			@include sans-medium;
+
+			&.label {
+				@include label-medium;
+				margin-bottom: 0.5rem;
+			}
+		} // p
+
+		.button-set { margin-bottom: 2rem; }
+
+		.btn-donate {
+			@include label-small;
+			border-radius: 4px;
+			color: #fff;
+			display: inline-block;
+			padding: 0.75rem 1rem;
+			margin: 0 1rem 1rem 0;
+			text-decoration: none;
+
+			@media all and (max-width: $break-tiny) { margin: 0 0.5rem 1rem 0; }
+
+			&:link,
+			&:visited {
+				background-color: #003087;
+			}
+
+			&:hover,
+			&:active {
+				background-color: #009cde;
+			}
+		}
+
+	} // .donate-options
+} // .donate-content
+

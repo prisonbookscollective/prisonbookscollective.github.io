@@ -4,9 +4,13 @@ help_email: helpout@prisonbooks.info
 description: A Durham-based all-volunteer group sending books and resources to imprisoned people in North Carolina and Alabama.
 baseurl: 
 url: "http://prisonbooks.info" # the base hostname & protocol for your site
-twitter_username: BooksPrison
-instagram_username: prisonbookscollective
-facebook_username: prisonbookscollective
+
+twitter_link: https://www.twitter.com/BooksPrison
+instagram_link: https://www.instagram.com/prisonbookscollective
+facebook_link: https://www.facebook.com/prisonbookscollective/
+flyleaf_wishlist: https://www.flyleafbooks.com/wishlist/256
+amazon_wishlist: https://www.amazon.com/gp/registry/wishlist/RMMK6YRO4PXV
+
 contact_email: prisonbooks@gmail.com
 mailing_address: PO Box 625, Carrboro, NC 27510
 
