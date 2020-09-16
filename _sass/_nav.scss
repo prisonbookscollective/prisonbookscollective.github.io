@@ -201,8 +201,8 @@ footer {
     }
 
     @media all and (max-width: 500px) {
-      margin: 2rem;
-      width: 40%;
+      margin: 0 0 0 -2.5rem;
+      width: 38%;
     }
   }
 
@@ -211,7 +211,7 @@ footer {
     color: $black-03;
     margin-bottom: 1rem;
 
-    @media all and (max-width: $break-medium) { margin-bottom: 0.5rem; }
+    @media all and (max-width: $break-medium) { margin-bottom: -0.3rem; }
   }
 
   .address {
@@ -219,7 +219,10 @@ footer {
 
     p { @include sans-small; }
 
-    p:not(.label) { margin-bottom: 0.3rem; }
+    p:not(.label) {
+      margin-bottom: 0.3rem;
+      margin-top: 0.5rem;
+    }
   }
 
   .social-links {
@@ -245,6 +248,7 @@ footer {
 
     @media all and (max-width: $break-medium) { 
       margin-bottom: 2rem;
+      margin-left: 6rem;
       padding-right: 0;
       width: 50%;
     }
@@ -256,7 +260,7 @@ footer {
 
     &:nth-child(2) {
       @media all and (max-width: $break-medium) {
-        margin-top: 3rem;
+        margin-top: -7rem;
       }
     }
 

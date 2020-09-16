@@ -228,7 +228,7 @@
 			}
 
 			@media all and (max-width: $break-small) { 
-				margin: 0 auto -1rem auto;
+				margin: 2rem auto -1rem auto;
 				width: 64%;
 			}
 		}
@@ -394,7 +394,7 @@
 
 	.copy {
 		max-width: $content-container-width;
-		padding-right: 4rem;
+		padding-right: 5rem;
 
 		.address {
 			margin: 1rem 0 2rem 2rem;

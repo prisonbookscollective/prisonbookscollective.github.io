@@ -73,26 +73,22 @@ div {
   src: url(/fonts/Graphik-Regular.otf);
   font-family: 'Graphik';
   font-style: normal;
-  font-weight: normal;
-  font-display: swap; }
+  font-weight: normal; }
 @font-face {
   src: url(/fonts/Graphik-RegularItalic.otf);
   font-family: 'Graphik';
   font-style: italic;
-  font-weight: normal;
-  font-display: swap; }
+  font-weight: normal; }
 @font-face {
   src: url(/fonts/Graphik-Medium.otf);
   font-family: 'Graphik';
   font-style: normal;
-  font-weight: 500;
-  font-display: swap; }
+  font-weight: 500; }
 @font-face {
   src: url(/fonts/Graphik-MediumItalic.otf);
   font-family: 'Graphik';
   font-style: italic;
-  font-weight: 500;
-  font-display: swap; }
+  font-weight: 500; }
 .sans {
   font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif; }
 
@@ -101,26 +97,22 @@ div {
   src: url(/fonts/GentiumBookBasic-Regular.ttf);
   font-family: 'Gentium Book Basic';
   font-style: normal;
-  font-weight: normal;
-  font-display: swap; }
+  font-weight: normal; }
 @font-face {
   src: url(/fonts/GentiumBookBasic-RegularItalic.ttf);
   font-family: 'Gentium Book Basic';
   font-style: italic;
-  font-weight: normal;
-  font-display: swap; }
+  font-weight: normal; }
 @font-face {
   src: url(/fonts/GentiumBookBasic-Bold.ttf);
   font-family: 'Gentium Book Basic';
   font-style: normal;
-  font-weight: bold;
-  font-display: swap; }
+  font-weight: bold; }
 @font-face {
   src: url(/fonts/GentiumBookBasic-BoldItalic.ttf);
   font-family: 'Gentium Book Basic';
   font-style: italic;
-  font-weight: bold;
-  font-display: swap; }
+  font-weight: bold; }
 .serif {
   font-family: "Gentium Book Basic", Georgia, serif; }
 
@@ -148,7 +140,9 @@ div {
   font-style: italic; }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%; }
 
 body {
   color: #424242;
@@ -297,6 +291,9 @@ a {
 .content-left {
   margin: 6rem 0;
   max-width: 540px; }
+  @media all and (max-width: 800px) {
+    .content-left {
+      margin: 4rem 0; } }
 
 .content-container-width {
   max-width: 540px; }
@@ -474,8 +471,8 @@ footer {
         width: 25%; } }
     @media all and (max-width: 500px) {
       .footer-content .pbc-logo {
-        margin: 2rem;
-        width: 40%; } }
+        margin: 0 0 0 -2.5rem;
+        width: 38%; } }
   .footer-content .label {
     font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif;
     font-size: 0.86rem;
@@ -487,7 +484,7 @@ footer {
     margin-bottom: 1rem; }
     @media all and (max-width: 800px) {
       .footer-content .label {
-        margin-bottom: 0.5rem; } }
+        margin-bottom: -0.3rem; } }
   .footer-content .address {
     margin-bottom: 1.5rem; }
     .footer-content .address p {
@@ -498,7 +495,8 @@ footer {
       letter-spacing: -0.009em;
       line-height: 140%; }
     .footer-content .address p:not(.label) {
-      margin-bottom: 0.3rem; }
+      margin-bottom: 0.3rem;
+      margin-top: 0.5rem; }
   .footer-content .social-links {
     margin-top: 1.5rem;
     padding: 0; }
@@ -514,6 +512,7 @@ footer {
     @media all and (max-width: 800px) {
       .footer-content .link-list {
         margin-bottom: 2rem;
+        margin-left: 6rem;
         padding-right: 0;
         width: 50%; } }
     @media all and (max-width: 500px) {
@@ -522,7 +521,7 @@ footer {
         width: 100%; } }
     @media all and (max-width: 800px) {
       .footer-content .link-list:nth-child(2) {
-        margin-top: 3rem; } }
+        margin-top: -7rem; } }
     .footer-content .link-list ul {
       padding: 0; }
     .footer-content .link-list li {
@@ -765,7 +764,7 @@ footer {
         width: 50%; } }
     @media all and (max-width: 600px) {
       .home .home-intro figure {
-        margin: 0 auto -1rem auto;
+        margin: 2rem auto -1rem auto;
         width: 64%; } }
 
 /* === Support Us === */
@@ -924,7 +923,7 @@ footer {
       flex-wrap: wrap-reverse; } }
   .donate-content .copy {
     max-width: 540px;
-    padding-right: 4rem; }
+    padding-right: 5rem; }
     .donate-content .copy .address {
       margin: 1rem 0 2rem 2rem; }
       .donate-content .copy .address p {
