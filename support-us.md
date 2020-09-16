@@ -10,9 +10,9 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<p>1.</p>
 	</div>
 	<div class="content">
-		<h2>Donate to cover postage costs.</h2>
-		<p>Each month we send around $500 worth of postage to imprisoned people. This is our largest expense. Your donation will ensure we can continue mailing books directly to incarcerated people at no cost to them.</p>
-		<a href="" class="btn-secondary arrow">Make a donation</a>
+		<h2>Make a financial donation.</h2>
+		<p>Each month we spend around $500 on postage. This is our largest expense. Your donation will ensure we can continue mailing books directly to incarcerated people at no cost to them.</p>
+		<a href="/donate" class="btn-secondary arrow">Make a donation</a>
 	</div>
 </div>
 
@@ -22,7 +22,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. If you would like to buy or donate books, please <a href="mailto:{{ site.contact_email }}?subject=Donation">contact us</a> ahead of time so that we can schedule a time to pick them up!</p>
+		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. If you would like to buy or donate books, please <a href="mailto:{{ site.contact_email }}?subject=Book%20Donation">contact us</a> ahead of time so that we can schedule a time to pick them up!</p>
 		<p><i>Please note that we can only accept <strong>paperback books</strong>, a common requirement of prisons, and cannot accept books with images of nudity, gang-related material, or anything related to tattooing.</i></p>
 		<div class="genre-links">
 			<p class="label">High-Demand Books</p>
@@ -54,9 +54,9 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<p>3.</p>
 	</div>
 	<div class="content">
-		<h2>Donate office supplies.</h2>
-		<p>We always need more paper, 9×12 envelopes, and printer cartridges! Please consider donating office supplies listed on our Amazon wish list (you are welcome to donate any unused items of your own, too).</p>
-		<p>When you purchase items from our Amazon wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please contact us and we’ll schedule a time to meet. Thanks!</p>
+		<h2>Purchase office supplies.</h2>
+		<p>We always need more paper, 9×12 envelopes, and printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
+		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.contact_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
 	</div>
 	<a href="{{ site.amazon_wishlist }}" class="support-card">
 		<img src="/img/logo-amazon.png" alt="">
@@ -70,7 +70,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Volunteer during workdays.</h2>
-		<p>Because we work in a relatively small space, we are currently pausing guest volunteer visits as we weather the pandemic. We will post updates to our <a href="{{ site.facebook_link }}">Facebook page</a> about our volunteer policy as North Carolina moves into new quarantine phases. A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests. </p>
+		<p>Because we work in a relatively small space, we are waiting to allow guest volunteer visits until North Carolina raises quarantine restrictions. We will post updates to our <a href="{{ site.facebook_link }}">Facebook page</a> about our volunteer policy as North Carolina moves into new quarantine phases. A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests. </p>
 	</div>
 </div>
 

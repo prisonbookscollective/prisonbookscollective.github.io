@@ -760,7 +760,7 @@ footer {
       line-height: 140%;
       margin-bottom: 2rem; }
   .home .home-intro figure {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 32%; }
     @media all and (max-width: 800px) {
       .home .home-intro figure {
@@ -916,7 +916,12 @@ footer {
     font-weight: bold;
     line-height: 140%;
     margin-bottom: 2rem;
-    margin: 3rem 0 0.5rem 0; }
+    border-top: 1px solid #DEE8EE;
+    margin: 3rem 0 0.5rem 0;
+    padding-top: 2rem; }
+    .faqs dt:first-child {
+      border-top: none;
+      padding-top: 0; }
 
 /* === Donate === */
 .donate-content {
