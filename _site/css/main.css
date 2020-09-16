@@ -262,10 +262,14 @@ a {
     content: "";
     display: inline-block;
     height: 16px;
-    margin-left: 0.3rem;
-    margin-top: -4px;
+    margin-left: 4px;
+    margin-top: -3px;
     vertical-align: middle;
     width: 14px; }
+  a.arrow-white:after {
+    background-image: url("/img/icon-arrow-white.svg");
+    margin-left: 2px;
+    margin-top: -5px; }
   a.link-set {
     margin-left: 2rem; }
 
@@ -599,7 +603,7 @@ footer {
 .copy-left {
   display: flex;
   justify-content: space-between;
-  margin: 8rem 0; }
+  margin: 7rem 0; }
   @media all and (max-width: 800px) {
     .copy-right,
     .copy-left {
@@ -734,7 +738,7 @@ footer {
     .home .home-intro {
       flex-wrap: wrap-reverse; } }
   .home .home-intro .home-intro-description {
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-bottom: 2rem;
     vertical-align: top;
     width: 54%; }
@@ -757,7 +761,7 @@ footer {
       margin-bottom: 2rem; }
   .home .home-intro figure {
     margin-top: 2rem;
-    width: 36%; }
+    width: 32%; }
     @media all and (max-width: 800px) {
       .home .home-intro figure {
         margin-top: 4rem;

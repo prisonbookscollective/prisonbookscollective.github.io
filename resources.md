@@ -2,7 +2,7 @@
 layout: default
 title: Resources
 title_full: Resources
-intro: Here you can find resources we maintain and send to imprisoned people as well as local and national prisoner support organizations.
+intro: Here you can find resources we maintain and send to imprisoned people as well as links to local and national prisoner support organizations.
 ---
 
 <h2>Prison Books Collective Resources</h2>
