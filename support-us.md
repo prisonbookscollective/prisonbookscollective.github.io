@@ -22,7 +22,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. If you would like to buy or donate books, please <a href="mailto:{{ site.contact_email }}?subject=Book%20Donation">contact us</a> ahead of time so that we can schedule a time to pick them up!</p>
+		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they're ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}subject=Book%20Donation">contact us</a> and we will work with you to schedule a time!</p>
 		<p><i>Please note that we can only accept <strong>paperback books</strong>, a common requirement of prisons, and cannot accept books with images of nudity, gang-related material, or anything related to tattooing.</i></p>
 		<div class="genre-links">
 			<p class="label">High-Demand Books</p>

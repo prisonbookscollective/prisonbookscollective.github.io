@@ -8,13 +8,13 @@
     <nav class="nav-links">
       <a href="#" class="menu-icon"></a>
 
-      <div class="link-list">
-        <a class="page-link {% if page.title == 'About' %}selected{% endif %}" href="/about">About</a>
-        <a class="page-link {% if page.title == 'Support Us' %}selected{% endif %}" href="/support-us">Support Us</a>
-        <a class="page-link {% if page.title == 'Resources' %}selected{% endif %}" href="/resources">Resources</a>
-        <a class="page-link {% if page.title == 'Frequently Asked Questions' %}selected{% endif %}" href="/faq">FAQ</a>
-        <a class="btn-primary" href="/donate">Donate</a>
-      </div>
+      <ul class="link-list">
+        <li class="page-link"><a class="{% if page.title == 'About' %}selected{% endif %}" href="/about">About</a></li>
+        <li class="page-link"><a class="{% if page.title == 'Support Us' %}selected{% endif %}" href="/support-us">Support Us</a></li>
+        <li class="page-link"><a class="{% if page.title == 'Resources' %}selected{% endif %}" href="/resources">Resources</a></li>
+        <li class="page-link"><a class="{% if page.title == 'Frequently Asked Questions' %}selected{% endif %}" href="/faq">FAQ</a></li>
+        <li><a class="btn-primary" href="/donate">Donate</a></li>
+      </ul>
     </nav>
   </div>
 </div>

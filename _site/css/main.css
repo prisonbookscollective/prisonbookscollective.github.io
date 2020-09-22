@@ -70,22 +70,22 @@ div {
 
 /* === Sans-serif === */
 @font-face {
-  src: url(/fonts/Graphik-Regular.otf);
+  src: url(/fonts/Graphik-Regular.woff);
   font-family: 'Graphik';
   font-style: normal;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/Graphik-RegularItalic.otf);
+  src: url(/fonts/Graphik-RegularItalic.woff);
   font-family: 'Graphik';
   font-style: italic;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/Graphik-Medium.otf);
+  src: url(/fonts/Graphik-Medium.woff);
   font-family: 'Graphik';
   font-style: normal;
   font-weight: 500; }
 @font-face {
-  src: url(/fonts/Graphik-MediumItalic.otf);
+  src: url(/fonts/Graphik-MediumItalic.woff);
   font-family: 'Graphik';
   font-style: italic;
   font-weight: 500; }
@@ -94,22 +94,22 @@ div {
 
 /* === Serif === */
 @font-face {
-  src: url(/fonts/GentiumBookBasic-Regular.ttf);
+  src: url(/fonts/GentiumBookBasic-Regular.woff);
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/GentiumBookBasic-RegularItalic.ttf);
+  src: url(/fonts/GentiumBookBasic-RegularItalic.woff);
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: normal; }
 @font-face {
-  src: url(/fonts/GentiumBookBasic-Bold.ttf);
+  src: url(/fonts/GentiumBookBasic-Bold.woff);
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: bold; }
 @font-face {
-  src: url(/fonts/GentiumBookBasic-BoldItalic.ttf);
+  src: url(/fonts/GentiumBookBasic-BoldItalic.woff);
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: bold; }
@@ -141,8 +141,7 @@ div {
 
 html {
   font-size: 16px;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%; }
+  text-rendering: optimizeLegibility; }
 
 body {
   color: #424242;
@@ -198,8 +197,7 @@ h2 {
 
 a {
   color: #424242;
-  text-decoration: underline;
-  transition: all 100ms; }
+  text-decoration: underline; }
   a:visited {
     color: #424242; }
   a:hover {
@@ -232,7 +230,7 @@ a {
     padding: 0.5rem 1rem;
     text-decoration: none; }
     a.btn-secondary:hover {
-      background: #BDC0DE; }
+      background: #dee0f0; }
   a.btn-tertiary {
     font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif;
     font-size: 0.94rem;
@@ -308,8 +306,7 @@ a {
 
 .home-link {
   display: inline-block;
-  margin-top: 0.5rem;
-  transition: all 100ms; }
+  margin-top: 0.5rem; }
   .home-link, .home-link:visited {
     color: #424242;
     text-decoration: none; }
@@ -327,9 +324,9 @@ a {
         width: 44px; } }
   .home-link p {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
-    margin: 12px 0 0 8px; }
+    margin: 14px 0 0 8px; }
     @media all and (max-width: 600px) {
       .home-link p {
         font-size: 1.2rem;
@@ -342,7 +339,7 @@ a {
       letter-spacing: -0.009em;
       line-height: 140%;
       display: block;
-      margin-top: -6px; }
+      margin-top: -4px; }
       @media all and (max-width: 600px) {
         .home-link p span {
           font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif;
@@ -357,25 +354,33 @@ a {
   float: right; }
   .nav-links .menu-icon {
     display: none; }
-  .nav-links .page-link {
-    font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif;
-    font-size: 0.94rem;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: -0.009em;
-    line-height: 140%;
-    border-bottom: 2px solid transparent;
-    color: #595F9B;
-    margin-right: 1.5rem;
-    padding-bottom: 2px;
-    transition: all 300ms; }
-    .nav-links .page-link:hover, .nav-links .page-link.selected {
-      border-bottom: 2px solid #BDC0DE;
-      color: #595F9B; }
   .nav-links .link-list {
     margin: 2rem 0; }
-    .nav-links .link-list a {
-      text-decoration: none; }
+    .nav-links .link-list li {
+      display: inline-block; }
+      .nav-links .link-list li:nth-child(n+2) {
+        margin-left: 1.2rem; }
+      @media all and (max-width: 800px) {
+        .nav-links .link-list li {
+          display: block; }
+          .nav-links .link-list li:nth-child(n+1) {
+            float: right;
+            margin: 0.5rem; } }
+    .nav-links .link-list .page-link {
+      font-family: "Graphik", -apple-system, Helvetica, Arial, sans-serif;
+      font-size: 0.94rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: -0.009em;
+      line-height: 140%; }
+      .nav-links .link-list .page-link a {
+        border-bottom: 2px solid transparent;
+        color: #595F9B;
+        padding-bottom: 2px;
+        text-decoration: none; }
+        .nav-links .link-list .page-link a:hover, .nav-links .link-list .page-link a.selected {
+          border-bottom: 2px solid #BDC0DE;
+          color: #595F9B; }
   @media all and (max-width: 800px) {
     .nav-links {
       background-color: #ffffff;
@@ -402,11 +407,7 @@ a {
         border-radius: 2px;
         display: block;
         padding: 1rem 1.5rem 2rem 1.5rem;
-        width: 180px; }
-      .nav-links .page-link {
-        display: block;
-        margin: 1rem 0.5rem;
-        width: fit-content; } }
+        width: 160px; } }
 
 /* === Footer === */
 footer {
@@ -508,8 +509,7 @@ footer {
       display: inline-block;
       margin-right: 0.75rem; }
       .footer-content .social-links li a:hover img {
-        opacity: 0.8;
-        transition: all 200ms; }
+        opacity: 0.8; }
   .footer-content .link-list {
     padding-right: 2rem;
     vertical-align: top; }

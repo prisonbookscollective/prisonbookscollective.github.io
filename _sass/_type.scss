@@ -1,28 +1,32 @@
 /* === Sans-serif === */
 
 @font-face {
-  src: url(/fonts/Graphik-Regular.otf);
+  src: url(/fonts/Graphik-Regular.woff);
+  // font-display: optional;
   font-family: 'Graphik';
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  src: url(/fonts/Graphik-RegularItalic.otf);
+  src: url(/fonts/Graphik-RegularItalic.woff);
+  // font-display: optional;
   font-family: 'Graphik';
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
-  src: url(/fonts/Graphik-Medium.otf);
+  src: url(/fonts/Graphik-Medium.woff);
+  // font-display: optional;
   font-family: 'Graphik';
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  src: url(/fonts/Graphik-MediumItalic.otf);
+  src: url(/fonts/Graphik-MediumItalic.woff);
+  // font-display: optional;
   font-family: 'Graphik';
   font-style: italic;
   font-weight: 500;
@@ -34,28 +38,32 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
 /* === Serif === */
 
 @font-face {
-  src: url(/fonts/GentiumBookBasic-Regular.ttf);
+  src: url(/fonts/GentiumBookBasic-Regular.woff);
+  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  src: url(/fonts/GentiumBookBasic-RegularItalic.ttf);
+  src: url(/fonts/GentiumBookBasic-RegularItalic.woff);
+  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
-  src: url(/fonts/GentiumBookBasic-Bold.ttf);
+  src: url(/fonts/GentiumBookBasic-Bold.woff);
+  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  src: url(/fonts/GentiumBookBasic-BoldItalic.ttf);
+  src: url(/fonts/GentiumBookBasic-BoldItalic.woff);
+  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: bold;
