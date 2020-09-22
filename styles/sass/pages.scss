@@ -45,9 +45,19 @@
 .page-header {
 	margin: 6rem auto 0 auto;
 
-	.intro { 
-		@include serif-extra-large;
-		max-width: $break-small;
+	h1 {
+		@include fade-up-in;
+		animation-duration: 1s;
+	}
+
+	.intro {
+		@include fade-up-in;
+		animation-delay: 0.3s;
+
+		p { 
+			@include serif-extra-large;
+			max-width: $break-small;
+		}
 	}
 } // .page-header
 
@@ -213,9 +223,22 @@
 
 			@media all and (max-width: $break-small) { width: 100%; }
 
-			.intro { @include serif-extra-large; }
+			.intro {
+				@include serif-extra-large;
+				@include fade-up-in;
+				animation-duration: 1s;
+			}
 
-			.intro-secondary { @include serif-large; }
+			.intro-secondary {
+				@include serif-large;
+				@include fade-up-in;
+				animation-delay: 0.3s;
+			}
+
+			.btn-secondary {
+				@include fade-up-in;
+				animation-delay: 0.5s;
+			}
 		} // .home-intro-description
 
 		figure {
@@ -241,6 +264,8 @@
 /* === Support Us === */
 
 .support-method {
+	@include fade-up-in;
+	animation-delay: calc(0.5s + 0.3s * var(--index));
 	border-bottom: 1px solid $gray-02;
 	display: flex;
 	margin-bottom: 3rem;
@@ -417,15 +442,18 @@
 
 	.donate-options {
 		@include shadow-default;
+		@include fade-in;
+		animation-delay: 0.75s;
 		background: url('/img/logo-paypal.png'), $gold-04;
 		background-position: 24px 32px;
 		background-repeat: no-repeat;
 		background-size: 48px;
 		border-radius: 2px;
-		padding: 2rem 2rem 2rem 7rem;
 		margin-bottom: 8rem;
 		max-width: 380px;
-
+		padding: 2rem 2rem 2rem 7rem;
+		transition: none;
+		
 		@media all and (max-width: $break-medium) {
 			background-position: 50% 32px;
 			margin: 0 auto 6rem auto;

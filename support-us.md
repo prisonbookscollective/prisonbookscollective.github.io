@@ -5,7 +5,7 @@ title_full: Support Us
 intro: We are able to do what we do through donations&#58; money, books, supplies, and time. Below are details about how you can help.
 ---
 
-<div class="support-method">
+<div class="support-method" style="--index: 0">
 	<div class="number">
 		<p>1.</p>
 	</div>
@@ -16,7 +16,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 </div>
 
-<div class="support-method">
+<div class="support-method" style="--index: 1">
 	<div class="number">
 		<p>2.</p>
 	</div>
@@ -49,7 +49,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</a>
 </div>
 
-<div class="support-method">
+<div class="support-method" style="--index: 2">
 	<div class="number">
 		<p>3.</p>
 	</div>
@@ -64,7 +64,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</a>
 </div>
 
-<div class="support-method">
+<div class="support-method" style="--index: 3">
 	<div class="number">
 		<p>4.</p>
 	</div>
@@ -74,7 +74,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 </div>
 
-<div class="support-method">
+<div class="support-method" style="--index: 4">
 	<div class="number">
 		<p>5.</p>
 	</div>

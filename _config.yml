@@ -16,4 +16,6 @@ help_email: helpoout@prisonbooks.info
 mailing_address: PO Box 625, Carrboro, NC 27510
 
 # Build settings
+sass:
+  sass_dir: /styles/sass
 markdown: kramdown
