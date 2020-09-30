@@ -18,7 +18,10 @@ figcaption {
   @include sans-extra-small;
 
   color: $black-03;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
+
+  a:link,
+  a:visited { color: $black-03; }
 
 }
 
@@ -73,6 +76,11 @@ a {
     text-decoration: underline;
   }
 
+  &:after {
+    @include transition-primary;
+    background-repeat: no-repeat;
+  }
+
   &.btn-primary {
     @include sans-medium-bold;
     background: $purple-01;
@@ -109,15 +117,17 @@ a {
     }
   } // .btn-secondary
 
-  &.download:after {
-    background-image: url("/img/icon-download.svg");
-    content: "";
-    display: inline-block;
-    height: 16px;
-    margin-left: 0.3rem;
-    margin-top: -4px;
-    vertical-align: middle;
-    width: 12px;
+  &.download {
+    &:after {
+      background-image: url("/img/icon-download.svg");
+      content: "";
+      display: inline-block;
+      height: 16px;
+      margin-left: 0.3rem;
+      margin-top: -4px;
+      vertical-align: middle;
+      width: 12px;
+    }
   }
 
   &.arrow:after {
@@ -127,6 +137,17 @@ a {
     height: 16px;
     margin-left: 4px;
     margin-top: -3px;
+    vertical-align: middle;
+    width: 14px;
+  }
+
+  &.new-window:after {
+    background-image: url("/img/icon-new-window.svg");
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-left: 8px;
+    margin-top: 4px;
     vertical-align: middle;
     width: 14px;
   }
@@ -153,7 +174,10 @@ blockquote {  }
   @media all and (max-width: $break-medium) { padding: 0 1rem; }
 }
 
-.page-content {  }
+.page-content {
+  @include fade-in;
+  animation-delay: 0.5s;
+}
 
 .content-wrapper {
   margin: 0 auto;
