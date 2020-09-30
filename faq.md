@@ -2,7 +2,7 @@
 layout: default
 title: FAQs
 title_full: Frequently Asked Questions
-intro: People are often curious about our work. If you still have questions for us, you’re welcome to <a href='mailto:{{ site.contact_email }}'>get in touch</a>
+intro: People are often curious about our work. If you still have questions for us, you’re welcome to <a href='mailto:prisonbooks@gmail.com'>get in touch</a>
 ---
 
 <dl class="questions">
