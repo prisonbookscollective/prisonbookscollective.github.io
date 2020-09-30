@@ -6,7 +6,7 @@ intro: People are often curious about our work. If you still have questions for 
 ---
 
 <dl class="content-container-width faqs">
-	<dt><p>Are there other books-to-prisons groups like you?</p></dt>
+	<dt><p>Are there other books-to-prisons groups like y'all?</p></dt>
 	<dd><p>Yes! The Massachusetts-based <a href="https://prisonbookprogram.org/">Prison Books Program</a> maintains a <a href="https://prisonbookprogram.org/prisonbooknetwork/">database</a> of books-to-prisons organizations across the United States, Canada, and the UK.</p></dd>
 	<dt><p>I‘d like to start a books-to-prisons group. Where should I begin?</p></dt>
 	<dd><p>Welcome to the effort! We have <a href="https://docs.google.com/document/d/17cSuaW1bsEu7NAfhHEro-6kMFmzRB2hUzwaASBH4zjM/edit?usp=sharing">compiled notes and recommendations</a> for starting such a group. Note that many states, including North Carolina and Alabama, require books-to-prisons groups to be recognized publishers and/or distributors of books, so expect to prove your legitimacy to your respective department of prisons. <a href="mailto:{{ site.contact_email}}?subject=Starting%20a%20Group">Reach out to us</a> if you‘d like to speak with our volunteers for advice.</p></dd>
