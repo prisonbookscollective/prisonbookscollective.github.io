@@ -22,8 +22,8 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="donate-books">Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they're ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
-		<p><i>Please note that we can only accept <strong>paperback books</strong>, a common requirement of prisons, and cannot accept books with images of nudity, gang-related material, or anything related to tattooing.</i></p>
+		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
+		<p><i>Please note that we can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing.</i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary new-window">View our Flyleaf wish list</a>
 		<div class="genre-links">
 			<p class="label">High-Demand Books</p>
@@ -91,7 +91,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<h2 id="justice-reform">Advocate justice reform.</h2>
 		<p>We recognize that the work we do is helping people endure an unjust system, and that the work of reform requires advocacy on a state and national scale.</p>
 		<p>Find organizations that provide fair legal representation, advocate for prisoners’ rights, and act as a bridge between the inside and outside worlds (some are listed on our Resources page). Read books, watch news and documentaries, and listen to podcasts about the struggle incarcerated people and people reintegrating into society face. Remember to be <a href="https://www.vox.com/the-highlight/2019/5/20/18542843/intersectionality-conservatism-law-race-gender-discrimination">intersectional</a> in your activism, conscious of the overlapping struggles of being imprisoned with being Black, Latinx, transgender, non-straight, and other marginalized identities. Call your representatives in support of reforms; speak out against the death penalty; support an end to cash bail; oppose for-profit prisons, e-readers, and communications; and resist the erasure of our brethren on the inside.</p>
-		<p>Our list of <a href="/resources#critical-prison-resources">critical prison resources</a> is intended to provide a primer on understanding and changing the United States' system of mass incarceration.</p>
+		<p>Our list of <a href="/resources#critical-prison-resources">critical prison resources</a> is intended to provide a primer on understanding and changing the United States’ system of mass incarceration.</p>
 		<a href="/resources#critical-prison-resources" class="btn-secondary arrow">View resources</a>
 	</div>
 	<figure class="support-image">

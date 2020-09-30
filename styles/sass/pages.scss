@@ -411,8 +411,9 @@
 
 /* === FAQs === */
 
-.faqs {
+.questions {
 	margin-top: -3rem;
+	max-width: 600px;
 
 	dt {
 		@include serif-medium-bold;
