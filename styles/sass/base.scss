@@ -141,8 +141,19 @@ a {
     width: 14px;
   }
 
-  &.new-window:after {
-    background-image: url("/img/icon-new-window.svg");
+  &.external-link:after {
+    background-image: url("/img/icon-external-link.svg");
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-left: 8px;
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 14px;
+  }
+
+  &.email:after {
+    background-image: url("/img/icon-email.svg");
     content: "";
     display: inline-block;
     height: 16px;

@@ -24,7 +24,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<h2 id="donate-books">Donate paperback books.</h2>
 		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
 		<p><i>Please note that we can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing.</i></p>
-		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary new-window">View our Flyleaf wish list</a>
+		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">View our Flyleaf wish list</a>
 		<div class="genre-links">
 			<p class="label">High-Demand Books</p>
 			<ul>
@@ -58,7 +58,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<h2>Purchase office supplies.</h2>
 		<p>We always need more paper, 9×12 envelopes, and printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
 		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.contact_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
-		<a href="{{ site.amazon_wishlist }}" class="btn-secondary new-window">View our Amazon wish list</a>
+		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon wish list</a>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-volunteer-3.jpg" alt="">

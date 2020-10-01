@@ -14,7 +14,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<img src="/img/resource-resource-guide.png" alt="">
 		<p>PBC Resource Guide (PDF)</p>
 	</a>
-	<a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">
+	<a href="{{ site.zine_catalog}}">
 		<img src="/img/resource-zine-catalog.png" alt="">
 		<p>PBC Zine Catalog (PDF)</p>
 	</a>
