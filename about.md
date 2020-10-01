@@ -2,15 +2,15 @@
 layout: default
 title: About
 title_full: About the Collective
-intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends free books and resources to people in prisons and jails in North Carolina and Alabama.
+intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends free books and resources to people imprisoned in North Carolina and Alabama.
 ---
 
 <div class="copy-left instantiated">
 	<div class="content">
 		<h2>What We Do</h2>
 		<p>We provide literature and resources to support incarcerated people as they navigate the violent and alienating American carceral system. The materials we send encourage knowledge-gathering and community-building across walls designed to keep people apart. We remember those kept out of sight and extend humanity to the dehumanized.</p>
-		<p>Our recipients are those incarcerated in North Carolina and Alabama, and while we focus mainly on male prisoners, the <a href="https://ncwomensprisonbookproject.wordpress.com/">NC Women’s Prison Book Project</a> serves women incarcerated in NC.</p>
-		<p>In addition to sending books, we have an extensive <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">catalog of zines</a> (political, educational, artistic, and self-help) that we mail on across the country on request. We also publish <a href="https://drive.google.com/file/d/1AGHbq9dWWUdB4L54iyiKvsGArzP9vIpT/view?usp=sharing">Words of Fire</a>, a semi-regular collection of art, short stories, essays, and poetry by incarcerated people.</p>
+		<p>Our recipients are people in jails and prisons in North Carolina and Alabama. While we focus mainly on male prisoners, the <a href="https://ncwomensprisonbookproject.wordpress.com/">NC Women’s Prison Book Project</a> serves women incarcerated in NC.</p>
+		<p>In addition to sending books, we have an extensive <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">catalog of zines</a> that we mail across the country, which range from political to educational, artistic to self-help. We also publish <a href="https://drive.google.com/file/d/1AGHbq9dWWUdB4L54iyiKvsGArzP9vIpT/view?usp=sharing">Words of Fire</a>, a semi-regular collection of art, short stories, essays, and poetry by incarcerated people.</p>
 		<p class="italicized">If you know someone in prison who would be interested in receiving free books or resources, please share our flyer with them and ask them to send us a letter at {{ site.mailing_address }}.</p>
 		<a href="https://drive.google.com/file/d/1jtHGvlgFTa2c9eMXzQAnmE-zN8RF39FV/view?usp=sharing" class="btn-secondary download">Download our flyer</a>
 	</div>
