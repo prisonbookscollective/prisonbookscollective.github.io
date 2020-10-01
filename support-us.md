@@ -73,7 +73,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="volunteer">Volunteer during workdays.</h2>
-		<p>Because we work in a relatively small space, we are waiting to allow guest volunteer visits until North Carolina raises quarantine restrictions. We will post updates to our <a href="{{ site.facebook_link }}">Facebook page</a> about our volunteer policy as North Carolina moves into new quarantine phases.</p>
+		<p>Because we work in a relatively small space, we are waiting to allow guest volunteer visits until North Carolina raises quarantine restrictions. We will post updates to our <a href="{{ site.facebook_link }}">Facebook page</a> about our volunteer policy as North Carolina moves into new quarantine phases. We are keeping an eye on the North Carolina <a href="https://www.nc.gov/covid19">COVID response website</a> to stay aware of changes.</p>
 		<p>A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests, and we continue to receive hundreds of requests each month.</p>
 		<a href="/about#workdays" class="btn-secondary arrow">Learn about workdays</a>
 	</div>

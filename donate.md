@@ -22,7 +22,7 @@ intro: $15 per month sends books to over a hundred prisoners a year. Consider ma
 			<a href="#" class="btn-donate">$15</a>
 			<a href="#" class="btn-donate">$30</a>
 			<a href="#" class="btn-donate">$50</a>
-			<a href="#" class="btn-donate choose-own arrow arrow-white">Choose your own amount</a>
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NJX6X5LCH2GYA" class="btn-donate choose-own arrow arrow-white">Choose your own amount</a>
 		</div>
 		<p class="label">Become a monthly sustainer</p>
 		<p>$15 per month sends over 100 books per year.</p>
