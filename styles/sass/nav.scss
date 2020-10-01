@@ -123,13 +123,14 @@
       top: -2rem;
     }
 
-    &:hover .link-list {
+    &:focus .link-list {
       @include shadow-default;
       background: $gold-04;
       border-radius: 2px;
       display: block;
       padding: 1rem 1.5rem 2rem 1.5rem;
       width: 160px;
+      z-index: 1;
     }
   } // media query
 } // .nav-links
