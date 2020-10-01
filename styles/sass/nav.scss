@@ -116,14 +116,13 @@
 
     .link-list {
       background: $white-01;
-      clear: both;
       display: none;
       position: absolute;
       right: 0;
       top: -2rem;
     }
 
-    &:focus .link-list {
+    &:hover .link-list {
       @include shadow-default;
       background: $gold-04;
       border-radius: 2px;
