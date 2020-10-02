@@ -8,11 +8,11 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 <div class="copy-left instantiated">
 	<div class="content">
 		<h2>What We Do</h2>
-		<p>We provide literature and resources to support incarcerated people as they navigate the violent and alienating American carceral system. The materials we send encourage knowledge-gathering and community-building across walls designed to keep people apart. We remember those kept out of sight and extend humanity to the dehumanized.</p>
+		<p>We provide literature and resources to incarcerated people, free of charge, to support them as they navigate the violent and alienating American carceral system. The materials we send encourage knowledge-gathering and community-building across walls designed to keep people apart. We remember those kept out of sight and extend humanity to the dehumanized.</p>
 		<p>Our recipients are people in jails and prisons in North Carolina and Alabama. While we focus mainly on male prisoners, the <a href="https://ncwomensprisonbookproject.wordpress.com/">NC Women’s Prison Book Project</a> serves women incarcerated in NC.</p>
 		<p>In addition to sending books, we have an extensive <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">catalog of zines</a> that we mail across the country, which range from political to educational, artistic to self-help. We also publish <a href="https://drive.google.com/file/d/1AGHbq9dWWUdB4L54iyiKvsGArzP9vIpT/view?usp=sharing">Words of Fire</a>, a semi-regular collection of art, short stories, essays, and poetry by incarcerated people.</p>
 		<p class="italicized">If you know someone in prison who would be interested in receiving free books or resources, please share our flyer with them and ask them to send us a letter at {{ site.mailing_address }}.</p>
-		<a href="https://drive.google.com/file/d/1jtHGvlgFTa2c9eMXzQAnmE-zN8RF39FV/view?usp=sharing" class="btn-secondary download">Download our flyer</a>
+		<a href="/img/resource-pbc-flyer.pdf" download="/img/resource-pbc-flyer.pdf" class="btn-secondary download">Download our flyer (PDF)</a>
 	</div>
 	<figure>
 		<img src="/img/photo-bookshelf-1.jpg" alt="">
@@ -23,12 +23,12 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 <div class="copy-left instantiated">
 	<div class="content">
 		<h2 id="workdays">Weekly Workdays</h2>
-		<p>We meet every Sunday at our shared space in Durham to fulfill requests and to package books to send to incarcerated people. If you are interested in volunteering with us, please <a href="mailto:{{ site.contact_email }}">get in touch</a>!</p>
+		<p>We meet every Sunday at our shared space in Durham to fulfill requests and to package books to send. If you are interested in volunteering with us, please <a href="mailto:{{ site.contact_email }}">get in touch</a>!</p>
 		<p>Our process is straightforward. Incarcerated individuals  across North Carolina and Alabama mail requests for all types of literature, from self-help to fiction to political zines; we receive about 50 requests each week. Volunteers look through our stock of donated books and send one or two that best match the request. We send invoices that document package contents so that recipients can verify that they received the books sent. Volunteers often write short notes of encouragement as well.</p>
 		<p>After our workdays, we take bins of packages to the post office for mailing. We mail hundreds of books each month. Postage is our single largest expense, funded entirely by supporter donations.</p>
 		<p><i>Please note that we are suspending group volunteer visits until North Carolina further relaxes its quarantine restrictions. A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests, and we continue to receive hundreds of requests each month.</i></p>
-		<a href="/donate" class="btn-secondary arrow">Give to postage costs</a>
-		<a href="/support-us#donate-books" class="btn-tertiary link-set">How to donate books</a>
+		<a href="/donate" class="btn-secondary arrow">Make a donation</a>
+		<a href="/support-us#donate-books" class="btn-tertiary link-set">How to give books</a>
 	</div>
 	<figure>
 		<img src="/img/photo-volunteer-1.jpg" alt="">

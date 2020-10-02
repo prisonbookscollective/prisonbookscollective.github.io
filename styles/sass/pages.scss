@@ -156,6 +156,8 @@
 
 			&:hover { @include shadow-hover; }
 
+			&:active { box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); }
+
 			@media all and (max-width: $break-medium) { padding: 2rem 0.5rem; }
 
 			@media all and (max-width: $break-small) {
@@ -233,6 +235,7 @@
 				@include serif-large;
 				@include fade-up-in;
 				animation-delay: 0.3s;
+				margin-bottom: 1rem;
 			}
 
 			.btn-secondary {

@@ -1,5 +1,6 @@
 html {
   font-size: 16.5px;
+  font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
@@ -86,6 +87,7 @@ a {
     background: $purple-01;
     color: $white-01;
     display: inline-block;
+    margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
 
@@ -97,6 +99,7 @@ a {
     background: $purple-04;
     color: $purple-01;
     display: inline-block;
+    margin-top: 1rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
 
