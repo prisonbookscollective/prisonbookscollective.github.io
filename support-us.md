@@ -11,7 +11,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Make a financial donation.</h2>
-		<p>Each month we spend around $500 on postage. This is our largest expense. Your donation will ensure we can continue mailing books to incarcerated people at no cost to them.</p>
+		<p>Each month we spend around $500 on postage. This is our largest expense. Your donation will ensure that we can continue mailing books directly to incarcerated people at no cost to them.</p>
 		<a href="/donate" class="btn-secondary arrow">Make a donation</a>
 	</div>
 	<figure class="support-image">

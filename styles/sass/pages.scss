@@ -126,7 +126,7 @@
 } // .copy-right, .copy-left
 
 .copy-center {
-	margin: 8rem 0 10rem 0;
+	margin: 7rem 0 10rem 0;
 	text-align: center;
 
 	@media all and (max-width: $break-medium) { margin: 4rem 0 6rem 0; }
@@ -206,10 +206,7 @@
 
 .home {
 
-	header {
-		background-color: $gold-04;
-		margin-bottom: -1rem;
-	}
+	header { background-color: $gold-04; }
 
 	.home-intro { 
 		display: flex;

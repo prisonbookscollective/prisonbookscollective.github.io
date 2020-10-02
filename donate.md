@@ -13,7 +13,7 @@ intro: $15 per month sends books to over a hundred prisoners a year. Consider ma
 			<p>PO Box 625</p>
 			<p>Carrboro, NC 27510</p>
 		</div>
-		<p>If it is feasible for you, please consider setting up a recurring donation. Our monthly sustainers help us plan for long-term projects and give us a reliable source of funds. Our work against injustice continues no matter the national and local political climate, so we appreciate the consistent support!</p>
+		<p>If it is feasible for you, please consider setting up a recurring donation. Our monthly sustainers help us plan for long-term projects and give us a reliable source of funds. Our work against injustice continues no matter the national or local political climate, so we appreciate the consistent support!</p>
 	</div>
 	<div class="donate-options">
 		<p class="label">One-time Donations</p>
