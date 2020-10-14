@@ -52,18 +52,18 @@ $break-tiny: 400px;
 
 @mixin shadow-default {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-	transition: ease-in-out 200ms;
+	transition: ease-in 200ms;
 }
 
 @mixin shadow-hover {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-8px);
-	transition: ease-in-out 200ms;
+	transition: ease-in 200ms;
 }
 
 // Transitions
 
-@mixin transition-primary { transition: ease-in-out 180ms; }
+@mixin transition-primary { transition: ease-in-out 100ms; }
 
 @keyframes fade-up-in {
   from { transform: translateY(1rem); }

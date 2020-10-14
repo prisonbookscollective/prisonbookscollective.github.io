@@ -16,17 +16,9 @@ intro: $15 per month sends books to over a hundred prisoners a year. Consider ma
 		<p>If it is feasible for you, please consider setting up a recurring donation. Our monthly sustainers help us plan for long-term projects and give us a reliable source of funds. Our work against injustice continues no matter the national or local political climate, so we appreciate the consistent support!</p>
 	</div>
 	<div class="donate-options">
-		<p class="label">One-time Donations</p>
-		<p>Select an amount to donate:</p>
-		<div class="button-set">
-			<a href="#" class="btn-donate">$15</a>
-			<a href="#" class="btn-donate">$30</a>
-			<a href="#" class="btn-donate">$50</a>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NJX6X5LCH2GYA" class="btn-donate choose-own arrow arrow-white">Choose your own amount</a>
-		</div>
-		<p class="label">Become a monthly sustainer</p>
-		<p>$15 per month sends over 100 books per year.</p>
-		<a href="#" class="btn-donate choose-own arrow arrow-white">Schedule your donation</a>
+		<p class="label">Make a donation</p>
+		<p>Please consider a one-time or recurring gift. $15 per month sends over 100 books per year. We appreciate it!</p>
+		<a target="_blank" href="https://www.paypal.com/donate?hosted_button_id=GQQ6N9MYX9U2G" class="btn-donate choose-own arrow arrow-white">Donate via Paypal</a>
 	</div>
 </div>
 
