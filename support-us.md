@@ -15,7 +15,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<a href="/donate" class="btn-secondary arrow">Make a donation</a>
 	</div>
 	<figure class="support-image">
-		<img src="/img/photo-packages.jpg" alt="">
+		<img src="/img/photo-packages.jpg" alt="Boxes of books backaged in manila envelopes.">
 		<figcaption>Each month we send hundreds of packages of books and other resources.</figcaption>
 	</figure>
 </div>
@@ -49,7 +49,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		</div>
 	</div>
 	<figure class="support-image">
-		<img src="/img/photo-donations.jpg" alt="">
+		<img src="/img/photo-donations.jpg" alt="A volunteer sorting through books of boxes.">
 		<figcaption>There‘s nothing better than fresh new boxes of books to sort through.</figcaption>
 	</figure>
 </div>
@@ -65,7 +65,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon wish list</a>
 	</div>
 	<figure class="support-image">
-		<img src="/img/photo-volunteer-3.jpg" alt="">
+		<img src="/img/photo-volunteer-3.jpg" alt="A volunteer writing to a recipient.">
 		<figcaption>We go through reams of paper, printing letterheads, resource guides, and zines.</figcaption>
 	</figure>
 	
@@ -82,7 +82,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<a href="/about#workdays" class="btn-secondary arrow">Learn about workdays</a>
 	</div>
 	<figure class="support-image">
-		<img src="/img/photo-volunteer-2.jpg" alt="">
+		<img src="/img/photo-volunteer-2.jpg" alt="A volunteer wearing a mask inspecting a book.">
 		<figcaption>One of our volunteers inspecting a book before sending. New volunteers receive an informal orientation to PBC and our <a href="/about#workdays">fulfillment process</a>.</figcaption>
 	</figure>
 </div>
@@ -99,7 +99,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<a href="/resources#critical-prison-resources" class="btn-secondary arrow">View resources</a>
 	</div>
 	<figure class="support-image">
-		<img src="/img/photo-outraged.jpg" alt="">
+		<img src="/img/photo-outraged.jpg" alt="A framed embroidery of the quote 'If you're not outraged, you’re not paying attention'">
 		<figcaption>The more you learn, the more you want to change the status quo.</figcaption>
 	</figure>
 </div>

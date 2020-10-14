@@ -17,7 +17,7 @@ intro: $15 per month sends books to over a hundred prisoners a year. Consider ma
 	</div>
 	<div class="donate-options">
 		<p class="label">Make a donation</p>
-		<p>Please consider a one-time or recurring gift. $15 per month sends over 100 books per year. We appreciate it!</p>
+		<p>Please consider a one-time or recurring gift. $15 per month sends over 100 books per year. Any donation is greatly appreciated!</p>
 		<a target="_blank" href="https://www.paypal.com/donate?hosted_button_id=GQQ6N9MYX9U2G" class="btn-donate choose-own arrow arrow-white">Donate via Paypal</a>
 	</div>
 </div>

@@ -15,7 +15,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 		<a href="/img/resource-pbc-flyer.pdf" download="/img/resource-pbc-flyer.pdf" class="btn-secondary download">Download our flyer (PDF)</a>
 	</div>
 	<figure>
-		<img src="/img/photo-bookshelf-1.jpg" alt="">
+		<img src="/img/photo-bookshelf-1.jpg" alt="Image of a crowded bookshelf.">
 		<figcaption>One of the many shelves in the volunteer space. We're constantly reorganizing our stock to make room for more!</figcaption>
 	</figure>
 </div>
@@ -31,7 +31,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 		<a href="/support-us#donate-books" class="btn-tertiary link-set">How to give books</a>
 	</div>
 	<figure>
-		<img src="/img/photo-volunteer-1.jpg" alt="">
+		<img src="/img/photo-volunteer-1.jpg" alt="A volunteer with a mask standing in front of a bookshelf">
 		<figcaption>We help new volunteers learn how to respond to requests and package books.</figcaption>
 	</figure>
 </div>
@@ -45,7 +45,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 		<a href="mailto:{{ site.contact_email }}" class="btn-secondary email">Send an email</a>
 	</div>
 	<figure>
-		<img src="/img/photo-solitary.jpg" alt="">
+		<img src="/img/photo-solitary.jpg" alt="A close-up image of the book Solitary">
 		<figcaption>We get especially excited when publishers send us books about prison written by formerly-incarcerate individuals.</figcaption>
 	</figure>
 </div>
@@ -57,7 +57,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 		<p>We work to enact systems of care for those who have been subjected to “organized abandonment,” as abolitionist scholar Ruth Wilson Gilmore terms it, and the violence of the criminal justice system in America today.</p>
 	</div>
 	<figure>
-		<img src="/img/photo-prison.jpg" alt="">
+		<img src="/img/photo-prison.jpg" alt="Image of barbed wire above a metal wall">
 		<figcaption>While each of us may hold different views about solutions to social injustices, we are all agreed about the need to reform the carceral system.</figcaption>
 	</figure>
 </div>

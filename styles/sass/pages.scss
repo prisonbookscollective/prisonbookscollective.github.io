@@ -117,10 +117,13 @@
 		}
 
 		figure {
-			margin: 4rem 0;
+			margin: 4rem 0 0 0;
 			width: 36%;
 
-			@media all and (max-width: $break-medium) { width: 100%; }
+			@media all and (max-width: $break-medium) {
+				margin-top: 2rem;
+				width: 100%;
+			}
 		}
 	} // .instantiated
 } // .copy-right, .copy-left
@@ -306,7 +309,7 @@
 		width: 30%;
 
 		@media all and (max-width: $break-medium) {
-			margin: 0 auto;
+			margin: 2rem auto;
 			max-width: 320px;
 			width: auto;
 		}
@@ -367,6 +370,8 @@
 			columns: 2;
 			margin: 0 0 2rem 0;
 			padding: 0 0 0 1rem;
+
+			@media all and (max-width: $break-small) { margin-bottom: 0; }
 		}
 
 		li {
