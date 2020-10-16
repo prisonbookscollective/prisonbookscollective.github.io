@@ -46,7 +46,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 	</div>
 	<figure>
 		<img src="/img/photo-solitary.jpg" alt="A close-up image of the book Solitary">
-		<figcaption>We get especially excited when publishers send us books about prison written by formerly-incarcerate individuals.</figcaption>
+		<figcaption>We get especially excited when publishers send us books about prison written by formerly-incarcerated individuals.</figcaption>
 	</figure>
 </div>
 

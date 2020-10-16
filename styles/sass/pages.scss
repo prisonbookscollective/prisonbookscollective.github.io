@@ -209,7 +209,10 @@
 
 .home {
 
-	header { background-color: $gold-04; }
+	header {
+		background-color: $gold-04;
+		border-bottom: 1px solid $gold-03;
+	}
 
 	.home-intro { 
 		display: flex;
