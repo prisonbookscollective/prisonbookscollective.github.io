@@ -280,7 +280,7 @@
 	@media all and (max-width: $break-medium) { display: block; }
 
 	.number {
-		width: 16%;
+		width: 12%;
 		p { @include serif-extra-large-bold; }
 
 		@media all and (max-width: $break-medium) {
@@ -309,7 +309,7 @@
 	.support-image {
 		margin-left: auto;
 		margin-top: 4rem;
-		width: 30%;
+		width: 34%;
 
 		@media all and (max-width: $break-medium) {
 			margin: 2rem auto;
