@@ -47,12 +47,12 @@
 
 	h1 {
 		@include fade-up-in;
-		animation-duration: 1s;
+		animation-duration: 500ms;
 	}
 
 	.intro {
 		@include fade-up-in;
-		animation-delay: 0.3s;
+		animation-delay: 300ms;
 
 		p { 
 			@include serif-extra-large;
@@ -231,19 +231,19 @@
 			.intro {
 				@include serif-extra-large;
 				@include fade-up-in;
-				animation-duration: 1s;
+				animation-duration: 500ms;
 			}
 
 			.intro-secondary {
 				@include serif-large;
 				@include fade-up-in;
-				animation-delay: 0.3s;
+				animation-delay: 300ms;
 				margin-bottom: 1rem;
 			}
 
 			.btn-secondary {
 				@include fade-up-in;
-				animation-delay: 0.5s;
+				animation-delay: 500ms;
 			}
 		} // .home-intro-description
 

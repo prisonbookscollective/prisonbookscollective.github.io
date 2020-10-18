@@ -65,7 +65,7 @@ $break-tiny: 400px;
 
 /* TODO: Safari, Firefox keyframes*/
 
-@mixin transition-primary { transition: ease-in-out 100ms; }
+@mixin transition-primary { transition: ease-in 100ms; }
 
 @keyframes fade-up-in {
   from { transform: translateY(1rem); }
@@ -77,7 +77,7 @@ $break-tiny: 400px;
 
 @mixin fade-up-in {
   opacity: 0;
-  animation: fade-up-in 0.5s;
+  animation: fade-up-in 300ms;
   animation-fill-mode: both;
 }
 
@@ -88,7 +88,7 @@ $break-tiny: 400px;
 
 @mixin fade-in {
   opacity: 0;
-  animation: fade-in 0.5s;
+  animation: fade-in 300ms;
   animation-fill-mode: both;
 }
 
