@@ -26,7 +26,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="donate-books">Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
+		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
 		<p><i>Please note that we can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing.</i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">View our Flyleaf wish list</a>
 		<div class="genre-links">
