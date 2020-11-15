@@ -26,19 +26,21 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="donate-books">Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. Below are the types of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
+		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of kinds of books that are requested often. We also keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. We are notified of purchases from our Flyleaf wish list and bring books to our workspace once they’re ready. If you would like to donate books directly to the group, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule a time to pick them up.</p>
 		<p><i>Please note that we can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing.</i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">View our Flyleaf wish list</a>
 		<div class="genre-links">
-			<p class="label">High-Demand Books</p>
+			<p class="label" id="high-demand-books">High-Demand Books</p>
 			<ul>
-				<li>GRE prep</li>
-				<li>Current, practical business books</li>
+				<li><mark>Current, practical business and financial literacy</mark></li>
+				<li><mark>Legal advice and dictionaries</mark></li>
+				<li><mark>GRE prep</mark></li>
+				<li><mark>Skill-building how-to guides</mark></li>
 				<li>Dictionaries (English and Spanish)</li>
-				<li>Legal advice and dictionaries</li>
-				<li>Skill-building how-to guides</li>
 				<li>General DIY (e.g. automotive, electrical, gardening, home repair)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
+				<li>Study Bibles</li>
+				<li>LGBTQ fiction</li>
 				<li>Black fiction (e.g. urban fiction)</li>
 				<li>Black non-fiction (e.g. autobiographies)</li>
 				<li>Indigenous studies</li>
@@ -47,6 +49,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li>Westerns</li>
 			</ul>
 		</div>
+		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Nov 2020</i></p>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-donations.jpg" alt="A volunteer sorting through books of boxes.">

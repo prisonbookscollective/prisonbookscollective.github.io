@@ -2,7 +2,6 @@
 
 @font-face {
   src: url(/fonts/Graphik-Regular.woff);
-  // font-display: optional;
   font-family: 'Graphik';
   font-style: normal;
   font-weight: normal;
@@ -10,7 +9,6 @@
 
 @font-face {
   src: url(/fonts/Graphik-RegularItalic.woff);
-  // font-display: optional;
   font-family: 'Graphik';
   font-style: italic;
   font-weight: normal;
@@ -18,7 +16,6 @@
 
 @font-face {
   src: url(/fonts/Graphik-Medium.woff);
-  // font-display: optional;
   font-family: 'Graphik';
   font-style: normal;
   font-weight: 500;
@@ -26,7 +23,6 @@
 
 @font-face {
   src: url(/fonts/Graphik-MediumItalic.woff);
-  // font-display: optional;
   font-family: 'Graphik';
   font-style: italic;
   font-weight: 500;
@@ -39,7 +35,6 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
 
 @font-face {
   src: url(/fonts/GentiumBookBasic-Regular.woff);
-  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: normal;
@@ -47,7 +42,6 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
 
 @font-face {
   src: url(/fonts/GentiumBookBasic-RegularItalic.woff);
-  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: normal;
@@ -55,7 +49,6 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
 
 @font-face {
   src: url(/fonts/GentiumBookBasic-Bold.woff);
-  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: normal;
   font-weight: bold;
@@ -63,7 +56,6 @@ $sans: 'Graphik', -apple-system, Helvetica, Arial, sans-serif;
 
 @font-face {
   src: url(/fonts/GentiumBookBasic-BoldItalic.woff);
-  // font-display: optional;
   font-family: 'Gentium Book Basic';
   font-style: italic;
   font-weight: bold;
@@ -128,7 +120,7 @@ $serif: 'Gentium Book Basic', Georgia, serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
-  line-height: 140%;
+  line-height: 150%;
 }
 
 @mixin sans-extra-small {
@@ -137,7 +129,7 @@ $serif: 'Gentium Book Basic', Georgia, serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
-  line-height: 140%;
+  line-height: 150%;
 }
 
 /* === Serif === */
