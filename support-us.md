@@ -39,12 +39,14 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li>Dictionaries (English and Spanish)</li>
 				<li>General DIY (e.g. automotive, electrical, gardening, home repair)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
+				<li>Introductory science and nature books</li>
 				<li>Study Bibles</li>
 				<li>LGBTQ fiction</li>
 				<li>Black fiction (e.g. urban fiction)</li>
 				<li>Black non-fiction (e.g. autobiographies)</li>
 				<li>Indigenous studies</li>
 				<li>Drawing guides</li>
+				<li>Astrology and tarot</li>
 				<li>Thrillers</li>
 				<li>Westerns</li>
 			</ul>

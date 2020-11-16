@@ -63,8 +63,6 @@ $break-tiny: 400px;
 
 // Transitions
 
-/* TODO: Safari, Firefox keyframes*/
-
 @mixin transition-primary { transition: ease-in 100ms; }
 
 @keyframes fade-up-in {
