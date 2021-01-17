@@ -65,7 +65,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Purchase office supplies.</h2>
-		<p>We always need more paper, 9×12 envelopes, and printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
+		<p>We always need more printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
 		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.contact_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
 		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon wish list</a>
 	</div>
