@@ -32,12 +32,13 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<div class="genre-links">
 			<p class="label" id="high-demand-books">High-Demand Books</p>
 			<ul>
-				<li><mark>Current, practical business and financial literacy</mark></li>
+				<li><mark>Current, practical business guides (e.g. starting nonprofits)</mark></li>
+				<li><mark>Financial literacy</mark></li>
 				<li><mark>Legal advice and dictionaries</mark></li>
 				<li><mark>GRE prep</mark></li>
 				<li><mark>Skill-building how-to guides</mark></li>
 				<li>Dictionaries (English and Spanish)</li>
-				<li>General DIY (e.g. automotive, electrical, gardening, home repair)</li>
+				<li>General DIY (e.g. automotive, electrical, gardening, home repair, tiny houses)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
 				<li>Introductory science and nature books</li>
 				<li>Study Bibles</li>
