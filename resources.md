@@ -18,8 +18,8 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<img src="/img/resource-zine-catalog.png" alt="">
 		<p>PBC Zine Catalog (PDF)</p>
 	</a>
-	<a href="https://drive.google.com/file/d/1AGHbq9dWWUdB4L54iyiKvsGArzP9vIpT/view?usp=sharing">
-		<img src="/img/resource-words-of-fire-2018.png" alt="">
+	<a href="/img/resource-words-of-fire-2019.pdf">
+		<img src="/img/resource-words-of-fire-2019.png" alt="">
 		<p>Words of Fire 2019 (PDF)</p>
 	</a>
 </div>
