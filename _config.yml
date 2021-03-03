@@ -16,6 +16,7 @@ zine_catalog: https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/
 contact_email: prisonbooks@gmail.com
 help_email: helpout@prisonbooks.info
 mailing_address: PO Box 625, Carrboro, NC 27510
+patron_signup: https://docs.google.com/forms/d/e/1FAIpQLScfBxeuPKoxnt70nVhsjHD0dbvmr8whO3ILP7JBVX3JO5CqOQ/viewform?usp=sf_link
 
 # Build settings
 sass:
