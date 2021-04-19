@@ -18,8 +18,8 @@ intro: People are often curious about our work. If you still have questions for 
 	</dd>
 	<dt><p>What books do you need? What books are banned?</p></dt>
 	<dd>
-		<p>Our <a href="/support-us#donate-books">support</a> page lists books that are in high-demand. Please note that prisons do not accept hardbacks or books that contain markings or highlighting, gang-related materials, images of nudity, or content related to tattooing. While banned book lists vary from prison to prison and are constantly changing, a <a href="http://media2.newsobserver.com/content/media/2018/1/23/BannedBookList.pdf">full list</a> of banned books in North Carolina was provided to WUNC in 2018.</p>
-		<a href="http://media2.newsobserver.com/content/media/2018/1/23/BannedBookList.pdf" class="btn-secondary external-link">View banned books</a>
+		<p>Our <a href="/support-us#donate-books">support</a> page lists books that are in high-demand. Please note that prisons do not accept hardbacks or books that contain markings or highlighting, gang-related materials, images of nudity, or content related to tattooing. While banned book lists vary from prison to prison and are constantly changing, the latest <a href="/img/resource-banned-books-2019.pdf">list of banned books in North Carolina</a> was made available in 2019.</p>
+		<a href="/img/resource-banned-books-2019.pdf" class="btn-secondary external-link">View banned books</a>
 	</dd>
 	<dt><p>Why send books to inmates when there are prison libraries?</p></dt>
 	<dd>

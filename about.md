@@ -54,7 +54,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 	<div class="content">
 		<h2 id="philosophy">What We Stand For</h2>
 		<p>We are a group of people who believe the prison system in the United States is fundamentally unjust and perpetuates systems of economic, racial, gender, psychological, and social oppression. Our members share different motivations for the work we do — some of us are abolitionists, some of us seek prison reform, and some of us are merely concerned community members — but we are united in the belief that incarcerated people deserve support and resources and that the many injustices of prison must be resisted.</p>
-		<p>We work to enact systems of care for those who have been subjected to “organized abandonment,” as abolitionist scholar Ruth Wilson Gilmore terms it, and the violence of the criminal justice system in America today.</p>
+		<p>We work to build systems of care for those who have been subjected to “organized abandonment,” as abolitionist scholar Ruth Wilson Gilmore terms it, and the violence of the criminal justice system in America today.</p>
 	</div>
 	<figure>
 		<img src="/img/photo-prison.jpg" alt="Image of barbed wire above a metal wall">

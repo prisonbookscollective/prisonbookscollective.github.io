@@ -25,8 +25,8 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 </div>
 
 <div class="content-left">
-	<h2 id="support-for-incarcerated">Support for the Incarcerated</h2>
-	<p>We are only part of the solution to helping people survive and transition from the justice system. Below are organizations in North Carolina committed to helping people during and after their incarceration.</p>
+	<h2 id="support-for-incarcerated">Support for the Incarcerated and Returning Citizens</h2>
+	<p>We are only part of the solution to helping people survive and transition from the justice system. Below are organizations in North Carolina committed to help people affected by the long reach of mass incarceration.</p>
 	<ul>
 		<li><p><a href="https://durhamcares.org">DurhamCares</a>, a Durham-based community support organization, maintains a <a href="https://durhamcares.org/organizations-responding-to-mass-incarceration/">list</a> of local and national organizations responding to mass incarceration.</p></li>
 		<li><p><a href="http://www.jubilee-home.org/">Jubilee Home</a> is an organization in Durham that helps men transition from incarceration to independent living by providing housing, employment, and therapeutic services.</p></li>

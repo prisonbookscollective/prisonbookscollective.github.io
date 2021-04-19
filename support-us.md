@@ -26,15 +26,16 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="donate-books">Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of highly-requested of books. To donate books directly to the group, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule a socially-distant pickup. We ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </p>
+		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of highly-requested of books. To donate books directly to the group, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule your book donation drop off at a socially-distanced location in Carrboro.</p>
+		<p></p>
 		<p>If you would like to order high-demand books, we keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. When books are purchased from our wish list, we pick them up and bring them to the workspace. We also have a <a href="{{ site.patron_signup }}">patron sign up form</a> for people who are interested in purchasing specific requests that we don't have in stock. Patrons receive a periodic email listing these requests, which they are asked to purchase as they're able. This is a meaningful way to provide recipients the exact book they're looking for.</p>
-		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing.</i></p>
+		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing. </i></p> <p><i>Also, we ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.help_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">Flyleaf wish list</a>
 		<a href="{{ site.patron_signup }}" class="btn-tertiary external-link link-set">Patron signup</a>
 		<div class="genre-links">
 			<p class="label" id="high-demand-books">High-Demand Books</p>
 			<ul>
-				<li><mark>Current, practical business guides (e.g. starting nonprofits)</mark></li>
+				<li><mark>Current, practical business guides (e.g. for starting small businesses)</mark></li>
 				<li><mark>Financial literacy</mark></li>
 				<li><mark>Legal advice and dictionaries</mark></li>
 				<li><mark>GED prep</mark></li>
@@ -54,7 +55,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li>Westerns</li>
 			</ul>
 		</div>
-		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Feb 2021</i></p>
+		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Apr 2021</i></p>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-donations.jpg" alt="A volunteer sorting through books of boxes.">
