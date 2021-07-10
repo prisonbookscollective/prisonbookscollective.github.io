@@ -10,7 +10,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 <p class="content-container-width">We send a <a href="https://drive.google.com/file/d/1J5VOOqcyBaVh_npk8W3FlZIn4uGoIwL4/view?usp=sharing">resource guide</a> along with all of our packages that includes information about where incarcerated persons can find support. Our <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">zine catalog</a> provides a list of printed materials we send. Our zines are short, printed works on topics such as self-help, prisoners’ rights, physical exercise, Black history, and LGBTQIA advocacy.</p>
 
 <div class="resource-array">
-	<a href="https://drive.google.com/file/d/1J5VOOqcyBaVh_npk8W3FlZIn4uGoIwL4/view?usp=sharing">
+	<a href="{{ site.resource_guide}}">
 		<img src="/img/resource-resource-guide.png" alt="">
 		<p>PBC Resource Guide (PDF)</p>
 	</a>
