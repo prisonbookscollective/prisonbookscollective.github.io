@@ -47,7 +47,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<li><p>The “<a href="https://www.aaihs.org/prison-abolition-syllabus-2-0/">Prison Abolition Syllabus 2.0</a>” published by <i>Black Perspectives</i> is an extensive list of critical Black perspectives on the expansion of the prison system and abolition efforts.</p></li>
 		<li><p><a href="https://www.prisonlegalnews.org/">Prison Legal News</a> is a pubication of the Human Rights Defense Center covering the United States carceral system. </p></li>
 		<li><p><a href="http://criticalresistance.org/">Critical Resistance</a> is an organization working to end the global Prison Industrial Complex.</p></li>
-		<li><p>The <a href="https://www.themarshallproject.org/">Marshall Project</a> is a nonpartisan, nonprofit news organiztion reporting on criminal justice in the United States.</p></li>
+		<li><p>The <a href="https://www.themarshallproject.org/">Marshall Project</a> is a nonpartisan, nonprofit news organization reporting on criminal justice in the United States.</p></li>
 		<li><p>The <a href="https://www.earhustlesq.com/">Ear Hustle</a> podcast covers the daily realities of life inside prison, told from the perspective of imprisoned people.</p></li>
 		<li><p>The <a href="https://shadowproof.com/beyond-prisons/">Beyond Prisons</a> podcast discusses incarceration and prison abolition, supporting people directly impacted by the system.</p></li>
 	</ul>
