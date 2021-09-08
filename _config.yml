@@ -1,6 +1,7 @@
 title: Prison Books Collective
 general_email: prisonbooks@gmail.com
-help_email: helpout@prisonbooks.info
+mailing_address: PO Box 625, Carrboro, NC 27510
+patron_signup: https://docs.google.com/forms/d/e/1FAIpQLScfBxeuPKoxnt70nVhsjHD0dbvmr8whO3ILP7JBVX3JO5CqOQ/viewform?usp=sf_link
 description: A Durham-based all-volunteer nonprofit sending books and resources to imprisoned people in North Carolina and Alabama.
 baseurl: 
 url: "http://prisonbooks.info" # the base hostname & protocol for your site
@@ -14,10 +15,7 @@ amazon_wishlist: https://www.amazon.com/gp/registry/wishlist/RMMK6YRO4PXV
 zine_catalog: /img/resource-zine-catalog-2020.pdf
 resource_guide: /img/resource-resource-guide-2020.pdf
 
-contact_email: prisonbooks@gmail.com
-help_email: helpout@prisonbooks.info
-mailing_address: PO Box 625, Carrboro, NC 27510
-patron_signup: https://docs.google.com/forms/d/e/1FAIpQLScfBxeuPKoxnt70nVhsjHD0dbvmr8whO3ILP7JBVX3JO5CqOQ/viewform?usp=sf_link
+
 
 # Build settings
 sass:
