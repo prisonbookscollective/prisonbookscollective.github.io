@@ -42,7 +42,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 	<h2 id="critical-prison-resources">Critical Prison Resources</h2>
 	<p>It is our responsibility to educate ourselves about the incarceration system in the United States and its far-reaching effects.</p>
 	<ul>
-		<li><p>“<a href="Resource Guide: Prisons, Policing, and Punishment">Resource Guide: Prisons, Policing, and Punishment</a>” by Micah Herskind</p></li>
+		<li><p>“<a href="https://micahherskind.medium.com/resource-guide-prisons-policing-and-punishment-effb5e0f6620">Resource Guide: Prisons, Policing, and Punishment</a>” by Micah Herskind</p></li>
 		<li><p>“<a href="https://pen.org/wp-content/uploads/2019/09/literature-locked-up-report-9.24.19.pdf">Literature Locked Up: How Prison Book Restriction Policies Constitute the Nation’s Largest Book Ban</a>” is a policy paper by PEN America that details the types of book bans prisoners face, the arbitrariness with which they are implemented, and the lack of transparency and oversight that leads to bans on titles from Nobel Prize winners and leading historical figures.</p></li>
 		<li><p>The “<a href="https://www.aaihs.org/prison-abolition-syllabus-2-0/">Prison Abolition Syllabus 2.0</a>” published by <i>Black Perspectives</i> is an extensive list of critical Black perspectives on the expansion of the prison system and abolition efforts.</p></li>
 		<li><p><a href="https://www.prisonlegalnews.org/">Prison Legal News</a> is a pubication of the Human Rights Defense Center covering the United States carceral system. </p></li>

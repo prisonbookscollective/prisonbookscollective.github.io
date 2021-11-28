@@ -85,10 +85,11 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<p>4.</p>
 	</div>
 	<div class="content">
-		<h2 id="volunteer">Volunteer during workdays.</h2>
-		<p>Because we work in a relatively small space, we are waiting to allow guest volunteer visits until North Carolina raises quarantine restrictions. We will post updates to our <a href="{{ site.facebook_link }}">Facebook page</a> about our volunteer policy as North Carolina moves into new quarantine phases. We are keeping an eye on the North Carolina <a href="https://www.nc.gov/covid19">COVID response website</a> to stay aware of changes.</p>
-		<p>A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests, and we continue to receive hundreds of requests each month.</p>
-		<a href="/about#workdays" class="btn-secondary arrow">Learn about workdays</a>
+		<h2 id="volunteer">Volunteer with the group.</h2>
+		<p>We meet weekly on Sunday afternoons to put together packages for our recipients, sort through and shelve book donations, and listen to 80s rock on our dusty old CD player. You should join us! We can also use help with administrative things like communications, design, sourcing books, and coordinating with NC carceral institutions. If you're interested or have any questions, just <a href="mailto:{{ site.contact_email }}?subject=Volunteering">send us an email</a>.</p>
+		<p>Since fall 2021 we have been slowly been bringing in new volunteers. We ask all volunteers to wear masks while in the space, and to provide proof of vaccination on their first visit. To limit the number of people in our smallish space, we run two shifts on Sunday, from 12:00p - 2:30p and from 2:30p - 5:00p.</p>
+		<a href="mailto:{{ site.contact_email }}?subject=Volunteering" class="btn-secondary email">Get In Touch</a>
+		<a href="/about#workdays" class="btn-tertiary arrow link-set">Learn about workdays</a>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-volunteer-2.jpg" alt="A volunteer wearing a mask inspecting a book.">
