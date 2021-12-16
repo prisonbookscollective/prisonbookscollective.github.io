@@ -30,7 +30,7 @@ intro: People are often curious about our work. If you still have questions for 
 	<dd><p>Zines are self-published booklets and magazines, often nonfiction, that are designed to be printed and folded as pamphlets for easy distribution. We print the zines ourselves and often send 3-5 zines in a single package, depending on the request. Zines have a rich history in punk and anarchist DIY communities, and ours cover topics such as civil rights, LGBTQIA history and advocacy, roleplaying games, self-help, and more. Our <a href="{{ site.zine_catalog}}">zine catalog</a> contains a full list of publications we offer to recipients.</p></dd>
 	<dt><p>How can I get in touch with you?</p></dt>
 	<dd>
-		<p>The best way to contact us is by <a href="mailto:{{ site.contact_email }}">sending us an email</a>. To send mail, donations, or supplies, please address packages to Prison Books Collective, {{ site.mailing_address }}. Our <a href="/support-us">support</a> page includes additional information about how you can help.</p>
-		<a href="mailto:{{ site.contact_email }}" class="btn-secondary email">Email us</a>
+		<p>The best way to contact us is by <a href="mailto:{{ site.general_email }}">sending us an email</a>. To send mail, donations, or supplies, please address packages to Prison Books Collective, {{ site.mailing_address }}. Our <a href="/support-us">support</a> page includes additional information about how you can help.</p>
+		<a href="mailto:{{ site.general_email }}" class="btn-secondary email">Email us</a>
 	</dd>
 </dl>
