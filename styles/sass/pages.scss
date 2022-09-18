@@ -539,3 +539,29 @@
 	} // .donate-options
 } // .donate-content
 
+/* === Banned Books === */
+
+.banned-books {
+	display: flex;
+	justify-content: space-between;
+
+	.screenshot {
+		margin-left: 3rem;
+		width: 38%
+	}
+
+	@media all and (max-width: $break-medium) { 
+		.screenshot { width: 60%; }
+	}
+
+	@media all and (max-width: $break-small) { 
+		display: block;
+		flex-direction: row-reverse;
+
+		.screenshot {
+			margin-left: 0;
+			margin-top: 4rem;
+			width: 100%;
+		}
+	}
+}
