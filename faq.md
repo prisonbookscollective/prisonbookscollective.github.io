@@ -6,6 +6,17 @@ intro: People are often curious about our work. If you still have questions for 
 ---
 
 <dl class="questions">
+	<dt><p>How can I request books to be sent to someone in prison?</p> </dt>
+	<dd>
+		<p>We welcome friend and relatives to request books to be sent to loved ones in prison. To do so, please <a href="mailto:{{ site.general_email}}?subject=Mailing%20request">email us</a> the following information about the recipient and we will put a package in the mail for them.</p>
+		<ol>
+			<li>Name</li>
+			<li><a href="http://www.ncinmatesearch.org/NC_DPS.html">OPUS #</a> (used to verify their location)</li>
+			<li>Institution where they're being held</li>
+			<li>Types of books or resources they'd be interested in</li>
+		</ol>
+		<a href="mailto:{{ site.general_email}}?subject=Mailing%20request" class="btn-secondary email">Email us</a>
+	</dd>
 	<dt><p>Are there other books-to-prisons groups like y’all?</p> </dt>
 	<dd>
 		<p>Yes! The Massachusetts-based <a href="https://prisonbookprogram.org/">Prison Books Program</a> maintains a <a href="https://prisonbookprogram.org/prisonbooknetwork/">database</a> of books-to-prisons organizations across the United States, Canada, and the UK.</p>
@@ -13,7 +24,7 @@ intro: People are often curious about our work. If you still have questions for 
 	</dd>
 	<dt><p>I’d like to start a books-to-prisons group. Where should I begin?</p></dt>
 	<dd>
-		<p>Welcome to the effort! We have compiled a <a href="/img/resource-starting-a-group.pdf">guide</a> for starting  groups like ours. Note that many states, including North Carolina and Alabama, require books-to-prisons groups to be recognized publishers and/or distributors of books, so expect to prove your legitimacy to your respective department of prisons. <a href="mailto:{{ site.contact_email}}?subject=Starting%20a%20Group">Reach out to us</a> if you‘d like to speak with our volunteers for advice.</p>
+		<p>Welcome to the effort! We have compiled a <a href="/img/resource-starting-a-group.pdf">guide</a> for starting  groups like ours. Note that many states, including North Carolina and Alabama, require books-to-prisons groups to be recognized publishers and/or distributors of books, so expect to prove your legitimacy to your respective department of prisons. <a href="mailto:{{ site.general_email}}?subject=Starting%20a%20Group">Reach out to us</a> if you‘d like to speak with our volunteers for advice.</p>
 		<a href="/img/resource-starting-a-group.pdf" download="/img/resource-starting-a-group.pdf" class="btn-secondary download">Download our guide (PDF)</a>
 	</dd>
 	<dt><p>What books do you need? What books are banned?</p></dt>

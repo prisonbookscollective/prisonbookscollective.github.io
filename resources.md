@@ -18,9 +18,13 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<img src="/img/resource-zine-catalog.png" alt="">
 		<p>PBC Zine Catalog (PDF)</p>
 	</a>
-	<a href="/img/resource-words-of-fire-2019.pdf">
-		<img src="/img/resource-words-of-fire-2019.png" alt="">
-		<p>Words of Fire 2019 (PDF)</p>
+	<a href="/img/resource-words-of-fire-10.pdf">
+		<img src="/img/resource-words-of-fire-10-cover.png" alt="">
+		<p>Words of Fire 10 (PDF)</p>
+	</a>
+	<a href="/img/resource-words-of-fire-11.pdf">
+		<img src="/img/resource-words-of-fire-11-cover.jpg" alt="">
+		<p>Words of Fire 11 (PDF)</p>
 	</a>
 </div>
 
@@ -35,6 +39,8 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<li><p>The <a href="https://capitalrestorativejustice.org/">Capital Restorative Justice Project</a> works with families and communities in Durham who have been affected by murder, faciliting the process of community-led restorative justice.</p></li>
 		<li><p><a href="https://southernersonnewground.org/">Southerners on New Ground (SONG)</a> is leading a multi-issue southern justice movement that unites us across class, age, race, ability, gender, immigration status, and sexuality.</p></li>
 		<li><p>The Massachusetts-based <a href="https://prisonbookprogram.org/">Prison Books Program</a> maintains a <a href="https://prisonbookprogram.org/prisonbooknetwork/">database</a> of books-to-prisons organizations across the United States, Canada, and the UK.</p></li>
+		<li><p><a href="https://www.empowermentave.com/">Empowerment Avenue</a> provides resources for artists in prison to publish and receive payment for their work in mainstream venues such as journals, galleries, museums, and other organizations.</p></li>
+		<li><p>The <a href="https://prisonjournalismproject.org/">Prison Journalism Project</a> promotes and publishes journalism written by prisoners to bring to light the effects of mass incarceration from imprisoned people themselves.</p></li>
 	</ul>
 </div>
 
