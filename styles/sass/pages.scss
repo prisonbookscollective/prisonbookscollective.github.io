@@ -143,9 +143,10 @@
 
 	.support-links {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		margin: 4rem auto;
-		max-width: 780px;
+		max-width: 640px;
 
 		@media all and (max-width: $break-small) { display: block; }
 
@@ -153,9 +154,10 @@
 			@include shadow-default;
 			background-color: $gold-04;
 			border-radius: 2px;
+			margin-bottom: 2rem;
 			padding: 2rem;
 			text-decoration: none;
-			width: 30%;
+			width: 48%;
 
 			&:hover { @include shadow-hover; }
 
@@ -165,7 +167,7 @@
 
 			@media all and (max-width: $break-small) {
 				display: block;
-				margin: 2rem auto 0 auto;
+				margin: 2rem auto;
 				padding: 2rem 1rem 0.5rem 1rem;
 				width: 80%;
 			}
