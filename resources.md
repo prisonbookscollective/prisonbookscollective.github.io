@@ -41,6 +41,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<li><p>The Massachusetts-based <a href="https://prisonbookprogram.org/">Prison Books Program</a> maintains a <a href="https://prisonbookprogram.org/prisonbooknetwork/">database</a> of books-to-prisons organizations across the United States, Canada, and the UK.</p></li>
 		<li><p><a href="https://www.empowermentave.com/">Empowerment Avenue</a> provides resources for artists in prison to publish and receive payment for their work in mainstream venues such as journals, galleries, museums, and other organizations.</p></li>
 		<li><p>The <a href="https://prisonjournalismproject.org/">Prison Journalism Project</a> promotes and publishes journalism written by prisoners to bring to light the effects of mass incarceration from imprisoned people themselves.</p></li>
+		<li><p>Intelligent's <a href="https://www.intelligent.com/education-and-career-guide-after-incarceration/">Guide to Higher Education after Imprisonment</a> explains how people can pursue and finish and degrees upon release.</p></li>
 	</ul>
 </div>
 
