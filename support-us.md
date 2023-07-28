@@ -41,6 +41,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li><mark>Legal advice and dictionaries</mark></li>
 				<li><mark>GED prep</mark></li>
 				<li><mark>Skill-building how-to guides</mark></li>
+				<li><mark><li>Westerns</li></mark></li>
 				<li>Dictionaries (English and Spanish)</li>
 				<li>General DIY (e.g. automotive, electrical, gardening, home repair, tiny houses)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
@@ -53,10 +54,9 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li>Drawing guides</li>
 				<li>Astrology and tarot</li>
 				<li>Thrillers</li>
-				<li>Westerns</li>
 			</ul>
 		</div>
-		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Apr 2021</i></p>
+		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Jul 2023</i></p>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-donations.jpg" alt="A volunteer sorting through books of boxes.">
