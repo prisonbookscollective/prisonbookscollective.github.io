@@ -41,7 +41,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 				<li><mark>Legal advice and dictionaries</mark></li>
 				<li><mark>GED prep</mark></li>
 				<li><mark>Skill-building how-to guides</mark></li>
-				<li><mark><li>Westerns</li></mark></li>
+				<li><mark>Westerns</mark></li>
 				<li>Dictionaries (English and Spanish)</li>
 				<li>General DIY (e.g. automotive, electrical, gardening, home repair, tiny houses)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
