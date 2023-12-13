@@ -2,7 +2,7 @@
 layout: default
 title: About
 title_full: About the Collective
-intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends free books and resources to people imprisoned in North Carolina and Alabama.
+intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends free books and resources to people imprisoned in North Carolina, Alabama, and federal prisons across the mid-atlantic.
 ---
 
 <div class="copy-left instantiated">
