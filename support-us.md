@@ -26,19 +26,19 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="donate-books">Donate paperback books.</h2>
-		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of highly-requested of books. To donate books directly to the group, please <a href="mailto:{{ site.contact_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule your book donation drop off at a socially-distanced location in Carrboro.</p>
+		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of highly-requested of books. To donate books directly to the group, please <a href="mailto:{{ site.general_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule your book donation drop off at a socially-distanced location in Carrboro.</p>
 		<p></p>
-		<p>If you would like to order high-demand books, we keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. When books are purchased from our wish list, we pick them up and bring them to the workspace. We also have a <a href="{{ site.patron_signup }}">patron sign up form</a> for people who are interested in purchasing specific requests that we don't have in stock. Patrons receive a periodic email listing these requests, which they are asked to purchase as they're able. This is a meaningful way to provide recipients the exact book they're looking for.</p>
-		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing. </i></p> <p><i>Also, we ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.contact_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </i></p>
+		<p>If you would like to order high-demand books, we keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. When books are purchased from our wish list, we pick them up and bring them to the workspace.</p>
+		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing. </i></p> <p><i>Also, we ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.general_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">Flyleaf wish list</a>
 		<a href="{{ site.quailRidge_wishlist }}" class="btn-secondary external-link link-set">Quail Ridge wish list</a>
-		<a href="{{ site.patron_signup }}" class="btn-tertiary external-link link-set last">Patron signup</a>
+
 		<div class="genre-links">
 			<p class="label" id="high-demand-books">High-Demand Books</p>
 			<ul>
 				<li><mark>Current, practical business guides (e.g. for starting small businesses)</mark></li>
 				<li><mark>Financial literacy</mark></li>
-				<li><mark>Legal advice and dictionaries</mark></li>
+				<li><mark>Legal advice and appeals</mark></li>
 				<li><mark>GED prep</mark></li>
 				<li><mark>Skill-building how-to guides</mark></li>
 				<li><mark>Westerns</mark></li>
@@ -71,7 +71,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	<div class="content">
 		<h2>Purchase office supplies.</h2>
 		<p>We always need more printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
-		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.contact_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
+		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.general_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
 		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon wish list</a>
 	</div>
 	<figure class="support-image">
@@ -87,9 +87,9 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2 id="volunteer">Volunteer with the group.</h2>
-		<p>We meet weekly on Sunday afternoons to put together packages for our recipients, sort through and shelve book donations, and listen to 80s rock on our dusty old CD player. You should join us! We can also use help with administrative things like communications, design, sourcing books, and coordinating with NC carceral institutions. If you're interested or have any questions, just <a href="mailto:{{ site.contact_email }}?subject=Volunteering">send us an email</a>.</p>
+		<p>We meet weekly on Sunday afternoons to put together packages for our recipients, sort through and shelve book donations, and listen to 80s rock on our dusty old CD player. You should join us! We can also use help with administrative things like communications, design, sourcing books, and coordinating with NC carceral institutions. If you're interested or have any questions, just <a href="mailto:{{ site.general_email }}?subject=Volunteering">send us an email</a>.</p>
 		<p>Since fall 2021 we have been slowly been bringing in new volunteers. We ask all volunteers to wear masks while in the space, and to provide proof of vaccination on their first visit. To limit the number of people in our smallish space, we run two shifts on Sunday, from 12:00p - 2:30p and from 2:30p - 5:00p.</p>
-		<a href="mailto:{{ site.contact_email }}?subject=Volunteering" class="btn-secondary email">Get In Touch</a>
+		<a href="mailto:{{ site.general_email }}?subject=Volunteering" class="btn-secondary email">Get In Touch</a>
 		<a href="/about#workdays" class="btn-tertiary arrow link-set">Learn about workdays</a>
 	</div>
 	<figure class="support-image">

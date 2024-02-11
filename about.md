@@ -23,7 +23,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 <div class="copy-left instantiated">
 	<div class="content">
 		<h2 id="workdays">Weekly Workdays</h2>
-		<p>We meet every Sunday at our shared space in Durham to fulfill requests and to package books to send. If you are interested in volunteering with us, please <a href="mailto:{{ site.contact_email }}">get in touch</a>!</p>
+		<p>We meet every Sunday at our shared space in Durham to fulfill requests and to package books to send. If you are interested in volunteering with us, please <a href="mailto:{{ site.general_email }}">get in touch</a>!</p>
 		<p>Our process is straightforward. Incarcerated individuals and those who care for them send requests for all types of literature, from self-help to fiction to political zines; we receive about 50 requests each week. Volunteers look through our stock of donated books and send one or two that best match the request. We send invoices that document package contents so that recipients can verify that they received the books sent. Volunteers often write short notes of encouragement as well.</p>
 		<p>After our workdays, we take bins of packages to the post office for mailing. We mail hundreds of books each month. Postage is our single largest expense, funded entirely by supporter donations.</p>
 		<p><i>Please note that we are suspending group volunteer visits until North Carolina further relaxes its quarantine restrictions. A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests, and we continue to receive hundreds of requests each month.</i></p>
@@ -38,11 +38,11 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 
 <div class="copy-left instantiated">
 	<div class="content">
-		<h2>Contact Us</h2>
-		<p>The best way to get in touch with us is through <a href="mailto:{{ site.contact_email }}">email</a>. To send us mail, donations, or supplies, please address packages to {{ site.mailing_address }}. Our <a href="/support-us">support page</a> has more information about how you can help.</p>
+		<h2>general Us</h2>
+		<p>The best way to get in touch with us is through <a href="mailto:{{ site.general_email }}">email</a>. To send us mail, donations, or supplies, please address packages to {{ site.mailing_address }}. Our <a href="/support-us">support page</a> has more information about how you can help.</p>
 		<p>If you are interested in volunteering, please send us an email and we will follow up to schedule a time and provide directions to the work space.</p>
 		<p>We also do our best to keep our <a href="{{ site.facebook_link }}">Facebook</a>, <a href="{{ site.instagram_link }}">Instagram</a>, and <a href="{{ site.twitter_link }}">Twitter</a> accounts active. Follow us to see more about our work, recipients, and jubilant book donation announcements.</p>
-		<a href="mailto:{{ site.contact_email }}" class="btn-secondary email">Send an email</a>
+		<a href="mailto:{{ site.general_email }}" class="btn-secondary email">Send an email</a>
 	</div>
 	<figure>
 		<img src="/img/photo-solitary.jpg" alt="A close-up image of the book Solitary">
