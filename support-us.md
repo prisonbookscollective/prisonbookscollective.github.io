@@ -28,10 +28,10 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<h2 id="donate-books">Donate paperback books.</h2>
 		<p>We maintain a stock of over a thousand books spanning every genre. <a href="#high-demand-books">Below</a> is a list of highly-requested of books. To donate books directly to the group, please <a href="mailto:{{ site.general_email }}?subject=Book%20Donation">contact us</a> and we will work with you to schedule your book donation drop off at a socially-distanced location in Carrboro.</p>
 		<p></p>
-		<p>If you would like to order high-demand books, we keep an active <a href="{{ site.flyleaf_wishlist }}">wish list</a> at FlyLeaf, a local, independent bookstore. When books are purchased from our wish list, we pick them up and bring them to the workspace.</p>
+		<p>If you would like to order high-demand books, we keep an active <a href="{{ site.flyleaf_wishlist }}">registry</a> at FlyLeaf, a local, independent bookstore. When books are purchased from our registry, we pick them up and bring them to the workspace.</p>
 		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing. </i></p> <p><i>Also, we ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.general_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </i></p>
-		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">Flyleaf wish list</a>
-		<a href="{{ site.quailRidge_wishlist }}" class="btn-secondary external-link link-set">Quail Ridge wish list</a>
+		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">Flyleaf registry</a>
+		<a href="{{ site.quailRidge_wishlist }}" class="btn-secondary external-link link-set">Quail Ridge registry</a>
 
 		<div class="genre-links">
 			<p class="label" id="high-demand-books">High-Demand Books</p>
@@ -70,9 +70,9 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 	</div>
 	<div class="content">
 		<h2>Purchase office supplies.</h2>
-		<p>We always need more printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon wish list</a> (you are welcome to donate any unused items of your own, too).</p>
-		<p>When you purchase items from our wish list, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.general_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
-		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon wish list</a>
+		<p>We always need more printer cartridges! Please consider donating office supplies listed on our <a href="{{ site.amazon_wishlist }}">Amazon registry</a> (you are welcome to donate any unused items of your own, too).</p>
+		<p>When you purchase items from our registry, they are mailed to a volunteer’s address and brough to the work site. If you would like to donate items directly, please <a href="mailto:{{ site.general_email }}?subject=Office%20Supply%20Donation">contact us</a> and we’ll schedule a time to meet. Thanks!</p>
+		<a href="{{ site.amazon_wishlist }}" class="btn-secondary external-link">View our Amazon registry</a>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-volunteer-3.jpg" alt="A volunteer writing to a recipient.">
