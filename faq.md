@@ -29,8 +29,8 @@ intro: People are often curious about our work. If you still have questions for 
 	</dd>
 	<dt><p>What books do you need? What books are banned?</p></dt>
 	<dd>
-		<p>Our <a href="/support-us#donate-books">support</a> page lists books that are in high-demand. Please note that prisons do not accept hardbacks or books that contain markings or highlighting, gang-related materials, images of nudity, or content related to tattooing. While banned book lists vary from prison to prison and are constantly changing, the latest <a href="/img/resource-banned-books-2022.pdf">list of banned books in North Carolina</a> was made available in 2022.</p>
-		<a href="/img/resource-banned-books-2022.pdf" class="btn-secondary">View banned books (PDF)</a>
+		<p>Our <a href="/support-us#donate-books">support</a> page lists books that are in high-demand. Please note that prisons do not accept hardbacks or books that contain markings or highlighting, gang-related materials, images of nudity, or content related to tattooing. While banned book lists vary from prison to prison and are constantly changing, the latest <a href="/img/resource-banned-books-2023.pdf">list of banned books in North Carolina</a> was made available in 2023. <a href="/banned-books">Learn more</a></p>
+		<a href="/img/resource-banned-books-2023.pdf" class="btn-secondary">View banned books (PDF)</a>
 	</dd>
 	<dt><p>Why send books to inmates when there are prison libraries?</p></dt>
 	<dd>
