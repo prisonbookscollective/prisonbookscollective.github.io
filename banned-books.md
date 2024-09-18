@@ -2,7 +2,7 @@
 layout: default
 title: Books Banned from NC Prisons
 title_full: Books Banned from NC Prisons
-intro: 839 books are banned from North Carolina carceral institutions as of February 2022.
+intro: 826 books are banned from North Carolina carceral institutions as of September 2024.
 ---
 
 <div class="banned-books">
