@@ -26,7 +26,6 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 		<p>We meet every Sunday at our shared space in Durham to fulfill requests and to package books to send. If you are interested in volunteering with us, please <a href="mailto:{{ site.general_email }}">get in touch</a>!</p>
 		<p>Our process is straightforward. Incarcerated individuals and those who care for them send requests for all types of literature, from self-help to fiction to political zines; we receive about 50 requests each week. Volunteers look through our stock of donated books and send one or two that best match the request. We send invoices that document package contents so that recipients can verify that they received the books sent. Volunteers often write short notes of encouragement as well.</p>
 		<p>After our workdays, we take bins of packages to the post office for mailing. We mail hundreds of books each month. Postage is our single largest expense, funded entirely by supporter donations.</p>
-		<p><i>Please note that we are suspending group volunteer visits until North Carolina further relaxes its quarantine restrictions. A core group of PBC volunteers, however, is continuing to meet each week to fulfill book requests, and we continue to receive hundreds of requests each month.</i></p>
 		<a href="/donate" class="btn-secondary arrow">Make a donation</a>
 		<a href="/support-us#donate-books" class="btn-tertiary link-set">How to give books</a>
 	</div>
