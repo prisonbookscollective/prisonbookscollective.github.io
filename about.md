@@ -9,7 +9,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 	<div class="content">
 		<h2>What We Do</h2>
 		<p>We provide literature and resources to incarcerated people, free of charge, to support them as they navigate the violent and alienating American carceral system. The materials we send encourage knowledge-gathering and community-building across walls designed to keep people apart. We remember those kept out of sight and extend humanity to the dehumanized.</p>
-		<p>Our recipients are adult men in jails and prisons in North Carolina and Alabama, as well as federal prisons in DE, KY, MD, TN, VA, and WV. While we focus mainly on male prisoners, the <a href="https://ncwomensprisonbookproject.wordpress.com/">NC Women’s Prison Books Project</a> serves women incarcerated in NC.</p>
+		<p>Our recipients are adult men in jails and prisons in North Carolina, adults incarcerated in Alabama, and adults incarcerated in federal prisons in DE, KY, MD, TN, VA, and WV. While we focus mainly on male prisoners, the <a href="https://ncwomensprisonbookproject.wordpress.com/">NC Women’s Prison Books Project</a> serves women incarcerated in NC.</p>
 		<p>In addition to sending books, we have an extensive <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">catalog of zines</a> that we mail across the country, which range from political to educational, artistic to self-help. We also publish <a href="/img/resource-words-of-fire-2019.pdf">Words of Fire</a>, a semi-regular collection of art, short stories, essays, and poetry by incarcerated people.</p>
 		<p class="italicized">If you know someone in prison who would be interested in receiving free books or resources, please share our flyer with them and ask them to send us a letter at {{ site.mailing_address }}.</p>
 		<a href="/img/resource-pbc-flyer.pdf" download="/img/resource-pbc-flyer.pdf" class="btn-secondary download">Download our flyer (PDF)</a>
@@ -37,7 +37,7 @@ intro: We are an all-volunteer 501(c)(3) nonprofit founded in 2006 that sends fr
 
 <div class="copy-left instantiated">
 	<div class="content">
-		<h2>general Us</h2>
+		<h2>Contact Us</h2>
 		<p>The best way to get in touch with us is through <a href="mailto:{{ site.general_email }}">email</a>. To send us mail, donations, or supplies, please address packages to {{ site.mailing_address }}. Our <a href="/support-us">support page</a> has more information about how you can help.</p>
 		<p>If you are interested in volunteering, please send us an email and we will follow up to schedule a time and provide directions to the work space.</p>
 		<p>We also do our best to keep our <a href="{{ site.facebook_link }}">Facebook</a>, <a href="{{ site.instagram_link }}">Instagram</a>, and <a href="{{ site.twitter_link }}">Twitter</a> accounts active. Follow us to see more about our work, recipients, and jubilant book donation announcements.</p>
