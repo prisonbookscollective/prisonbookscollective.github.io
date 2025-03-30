@@ -26,7 +26,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 		<img src="/img/resource-words-of-fire-11-cover.jpg" alt="">
 		<p>Words of Fire 11 (PDF)</p>
 	</a>
-	<a href="/img/resource-words-of-fire-12.pdf">
+	<a href="/img/WoF 12_final_digital.pdf">
 		<img src="/img/resource-words-of-fire-12-cover.png" alt="">
 		<p>Words of Fire 12 (PDF)</p>
 	</a>
