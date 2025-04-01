@@ -8,7 +8,7 @@ intro: Here you can find resources we maintain and send to imprisoned people as 
 <h2>Prison Books Collective Resources</h2>
 
 <p class="content-container-width">We send a <a href="https://drive.google.com/file/d/1J5VOOqcyBaVh_npk8W3FlZIn4uGoIwL4/view?usp=sharing">resource guide</a> along with all of our packages that includes information about where incarcerated persons can find support. Our <a href="https://drive.google.com/file/d/1bFVwI6wjujZ8CeYVQ0sfIPPQTFyjFguK/view?usp=sharing">zine catalog</a> provides a list of printed materials we send. Our zines are short, printed works on topics such as self-help, prisoners’ rights, physical exercise, Black history, and LGBTQIA advocacy.</p>
-
+<p class="content-container-width"><i>Words of Fire</i> is our literary magazine for incarcerated artists. Issue 12 was published in January of 2025, with 25 pieces by 17 writers and visual artists. <b>If you are downloading a copy of <i>Words of Fire</i>, consider <a href="https://prisonbooks.info/donate">donating to support our work</a>, with a suggested donation of at least $10.</b></p>
 <div class="resource-array">
 	<a href="{{ site.resource_guide}}">
 		<img src="/img/resource-resource-guide.png" alt="">
