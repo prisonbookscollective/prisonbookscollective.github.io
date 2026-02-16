@@ -34,29 +34,26 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<a href="{{ site.quailRidge_wishlist }}" class="btn-secondary external-link link-set">Quail Ridge registry</a>
 
 		<div class="genre-links">
-			<p class="label" id="high-demand-books">High-Demand Books</p>
+			<p class="label" id="high-demand-books">Preferred Genres</p>
 			<ul>
-				<li><mark>Current, practical business guides (e.g. for starting small businesses)</mark></li>
-				<li><mark>Financial literacy</mark></li>
-				<li><mark>Legal advice and appeals</mark></li>
-				<li><mark>GED prep</mark></li>
-				<li><mark>Skill-building how-to guides</mark></li>
-				<li><mark>Westerns</mark></li>
+				<li><mark>Thrillers, Horror, Sci-Fi/Fantasy, Westerns</mark></li>
+				<li><mark>Black fiction (e.g. urban fiction)</mark></li>
+				<li><mark>Coloring and puzzle books (<i>must be blank</i>)</mark></li>
+				<li><mark>Manga, comics, and graphic novels</mark></li>
+				<li>Current, practical business guides (e.g. for starting small businesses)</li>
+				<li>Financial literacy</li>
+				<li>Legal advice and appeals</li>
+				<li>Skill-building how-to guides</li>
 				<li>Dictionaries (English and Spanish)</li>
 				<li>General DIY (e.g. automotive, electrical, gardening, home repair, tiny houses)</li>
 				<li>Practical self-help (e.g. mental health, overcoming addiction, anxiety)</li>
-				<li>Introductory science and nature books</li>
 				<li>Study Bibles</li>
+				<li>Religious non-fiction</li>
 				<li>LGBTQ fiction</li>
-				<li>Black fiction (e.g. urban fiction)</li>
-				<li>Black non-fiction (e.g. autobiographies)</li>
-				<li>Indigenous studies</li>
-				<li>Drawing guides</li>
 				<li>Astrology and tarot</li>
-				<li>Thrillers</li>
 			</ul>
 		</div>
-		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Jul 2023</i></p>
+		<p class="asterisk-description"><mark>Particularly in need.</mark> <i>Last updated Feb 2026</i></p>
 	</div>
 	<figure class="support-image">
 		<img src="/img/photo-donations.jpg" alt="A volunteer sorting through books of boxes.">
