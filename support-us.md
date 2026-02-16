@@ -32,7 +32,7 @@ intro: We are able to do what we do through donations&#58; money, books, supplie
 		<p><i>Note: We can only accept <strong>paperback books</strong>, as required by prisons, and cannot accept books with markings or highlighting, images of nudity, gang-related material, or anything related to tattooing. </i></p> <p><i>Also, we ask donors to be considerate of the books they donate; while we appreciate all donations, time spent weeding out unusable books is time we could otherwise spend responding to requests. If you aren't sure if a donation would be helpful, please <a href="mailto:{{ site.general_email }}?subject=Book%20Donation">ask</a>! Also, please do not donate fiction unless it falls under the categories listed (we have more than we need!). </i></p>
 		<a href="{{ site.flyleaf_wishlist }}" class="btn-secondary external-link">Flyleaf registry</a>
 		<a href="{{ site.quailRidge_wishlist }}" class="btn-secondary external-link link-set">Quail Ridge registry</a>
-
+		<a href="{{ site.goldenFig_wishlist }}" class="btn-secondary external-link link-set">Golden Fig registry</a>
 		<div class="genre-links">
 			<p class="label" id="high-demand-books">Preferred Genres</p>
 			<ul>
